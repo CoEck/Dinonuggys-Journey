@@ -14,3 +14,14 @@ This game was made with Godot Engine, which is available under the following lic
 > -- [Godot Engine](https://godotengine.org)
 
 # The game itself
+
+Copyright © 2021 ent
+Copyright © 2021 papojari
+Copyright © 2021 MaxBlxck
+Copyright © 2021 juicy
+Copyright © 2021 justus
+Copyright © 2021 NEXDT
+Copyright © 2021 niklas_lodwig
+Copyright © 2021 Ole_Koenig_der_Dinonuggies
+Copyright © 2021 paulderpanzerfahrer
+Copyright © 2021 Schnau
