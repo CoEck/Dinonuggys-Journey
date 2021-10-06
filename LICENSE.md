@@ -17,7 +17,7 @@ This game was made with Godot Engine, which is available under the following lic
 
 Copyright © 2021 [ent](https://codeberg.org/ent)  
 Copyright © 2021 [papojari](https://codeberg.org/papojari)  
-Copyright © 2021 [MaxBlxck](https://codeberg.org/FlyXam)  
+Copyright © 2021 [MaxBlxck](https://codeberg.org/MaxBlxck)  
 Copyright © 2021 [juicy](https://codeberg.org/juicy)  
 Copyright © 2021 [justus](https://codeberg.org/justus)  
 Copyright © 2021 [NEXDT](https://codeberg.org/NEXDT)  
