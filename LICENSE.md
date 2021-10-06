@@ -24,4 +24,8 @@ Copyright © 2021 [NEXDT](https://codeberg.org/NEXDT)
 Copyright © 2021 [niklas_lodwig](https://codeberg.org/niklas_lodwig)  
 Copyright © 2021 [Ole_Koenig_der_Dinonuggies](https://codeberg.org/Ole_Koenig_der_Dinonuggies)  
 Copyright © 2021 [paulderpanzerfahrer](https://codeberg.org/paulderpanzerfahrer)  
-Copyright © 2021 [Schnau](https://codeberg.org/Schnau)  
+Copyright © 2021 [Schnau](https://codeberg.org/Schnau)
+
+## Images
+
+All images of the game are licensed under [CC-BY-NC-ND 4.0](under https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
