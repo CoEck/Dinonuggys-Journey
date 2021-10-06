@@ -15,13 +15,13 @@ This game was made with Godot Engine, which is available under the following lic
 
 # The game itself
 
-Copyright © 2021 ent
-Copyright © 2021 papojari
-Copyright © 2021 MaxBlxck
-Copyright © 2021 juicy
-Copyright © 2021 justus
-Copyright © 2021 NEXDT
-Copyright © 2021 niklas_lodwig
-Copyright © 2021 Ole_Koenig_der_Dinonuggies
-Copyright © 2021 paulderpanzerfahrer
-Copyright © 2021 Schnau
+Copyright © 2021 [ent](https://codeberg.org/ent)  
+Copyright © 2021 [papojari](https://codeberg.org/papojari)  
+Copyright © 2021 [MaxBlxck](https://codeberg.org/FlyXam)  
+Copyright © 2021 [juicy](https://codeberg.org/juicy)  
+Copyright © 2021 [justus](https://codeberg.org/justus)  
+Copyright © 2021 [NEXDT](https://codeberg.org/NEXDT)  
+Copyright © 2021 [niklas_lodwig](https://codeberg.org/niklas_lodwig)  
+Copyright © 2021 [Ole_Koenig_der_Dinonuggies](https://codeberg.org/Ole_Koenig_der_Dinonuggies)  
+Copyright © 2021 [paulderpanzerfahrer](https://codeberg.org/paulderpanzerfahrer)  
+Copyright © 2021 [Schnau](https://codeberg.org/Schnau)  
