@@ -1,8 +1,7 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
 [ext_resource path="res://Fork.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Music.mp3" type="AudioStream" id=3]
 [ext_resource path="res://Cabinet.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Table.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=6]
@@ -96,11 +95,6 @@ polygon = PoolVector2Array( 1272.83, -203.643, 1270.17, -211.781, 1300.05, -215.
 
 [node name="CollisionPolygon2D13" type="CollisionPolygon2D" parent="ZoneDeath"]
 polygon = PoolVector2Array( 1630.31, -214.364, 1631.54, -203.896, 1603.58, -204.23 )
-
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2( -21.2057, -42.723 )
-stream = ExtResource( 3 )
-autoplay = true
 
 [node name="Finish" type="Area2D" parent="."]
 position = Vector2( -22.7906, -41.9771 )
