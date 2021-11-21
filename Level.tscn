@@ -234,7 +234,7 @@ position = Vector2( 1572, 92 )
 rotation = -0.0680678
 
 [node name="Apple" parent="." instance=ExtResource( 15 )]
-position = Vector2( 977, 91 )
+position = Vector2( 978, 91 )
 
 [node name="PlateClean3" parent="." instance=ExtResource( 20 )]
 position = Vector2( 1168.89, 120.132 )
@@ -305,7 +305,7 @@ position = Vector2( 1775, 26 )
 position = Vector2( 2180, 131 )
 
 [node name="Apple3" parent="." instance=ExtResource( 15 )]
-position = Vector2( 2136, 82 )
+position = Vector2( 2137, 82 )
 
 [node name="Fork20" parent="." instance=ExtResource( 2 )]
 position = Vector2( 2210, 89 )
