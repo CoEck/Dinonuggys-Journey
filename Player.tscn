@@ -13,8 +13,8 @@ animations = [ {
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
-radius = 6.77313
-height = 2.875
+radius = 7.0
+height = 2.0
 
 [node name="Player" type="KinematicBody2D"]
 

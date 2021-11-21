@@ -5,8 +5,8 @@
 [node name="Sink" type="StaticBody2D"]
 
 [node name="Spüle" type="Sprite" parent="."]
-position = Vector2( 82.5627, 55.9016 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PoolVector2Array( 18.5319, 28.8824, 30.5355, 28.8824, 30.5629, 52.7999, 134.25, 53, 134.485, 28.9148, 146.536, 28.9148, 146.532, 87.999, 18.6078, 87.8317 )
+position = Vector2( -83, -56 )
+polygon = PoolVector2Array( 19, 29, 31, 29, 31, 53, 135, 53, 135, 29, 147, 29, 147, 88, 19, 88 )
