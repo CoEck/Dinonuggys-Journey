@@ -41,17 +41,6 @@ func _physics_process(delta):
 	# Move and slide is a function which allows the kinematic body to detect
 	# collisions and move accordingly
 
-
-
-
-
-
-
-
-
-
-
-
 onready var _animated_sprite = $AnimatedSprite
 
 func _process(delta):
@@ -61,9 +50,6 @@ func _process(delta):
 		elif Input.is_action_pressed("ui_left"):
 			_animated_sprite.play("run")
 		else:_animated_sprite.stop()
-
-
-
 
 func _on_ZoneDeath_body_entered(body):
 	get_tree().change_scene("res://Level.tscn")
