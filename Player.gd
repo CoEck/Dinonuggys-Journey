@@ -17,7 +17,6 @@ func set_direction(hor_direction):
 	apply_scale(Vector2(hor_dir_mod * direction.x, 1)) # flip
 	direction = Vector2(hor_dir_mod, direction.y) # update direction
 
-
 func _physics_process(delta): 
 	
 	# Player movement functions:
@@ -56,3 +55,5 @@ func _on_ZoneDeath_body_entered(body):
 
 func _on_Finish_body_entered(body):
 	get_tree().change_scene("res://EndScreen.tscn")
+
+

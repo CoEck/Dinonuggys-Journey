@@ -24,8 +24,9 @@
 [ext_resource path="res://Tiles.tscn" type="PackedScene" id=23]
 [ext_resource path="res://PlateTripleDirty.tscn" type="PackedScene" id=24]
 
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 1786.5, 67.5 )
+[sub_resource type="SegmentShape2D" id=3]
+a = Vector2( 2172, -3.99997 )
+b = Vector2( -1868, -3.99997 )
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 93, 250 )
@@ -38,62 +39,68 @@ script = ExtResource( 1 )
 speed = 125
 
 [node name="ZoneDeath" type="Area2D" parent="."]
-position = Vector2( 1437.13, 306.983 )
+position = Vector2( 1548, 308 )
+collision_layer = 2
+collision_mask = 2
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneDeath"]
-position = Vector2( 110.37, 1.517 )
-shape = SubResource( 1 )
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -1.03662, -44.9719 )
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -112.007, -45.8246 )
 polygon = PoolVector2Array( -1149.55, -165.681, -1148.63, -169.208, -1156.6, -170.819, -1158.44, -159.929, -1150.08, -158.549, -1126.47, -158.319, -1126.85, -163.917 )
 
-[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -1.98657, -44.4974 )
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -112.957, -45.3502 )
 polygon = PoolVector2Array( -756.725, -188.16, -746.775, -188.289, -751.004, -159.291 )
 
-[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -2.08105, -44.5952 )
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -113.051, -45.448 )
 polygon = PoolVector2Array( -705.524, -187.079, -695.513, -187.299, -700.639, -158.712 )
 
-[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -0.891846, -44.298 )
+[node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -111.862, -45.1508 )
 polygon = PoolVector2Array( -650.033, -159.732, -645.792, -186.419, -654.043, -186.419 )
 
-[node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -0.891968, -44.298 )
-polygon = PoolVector2Array( -297.318, -162.15, -287.154, -164.541, -284.285, -135.247 )
-
 [node name="CollisionPolygon2D6" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -1.88782, -43.6542 )
-polygon = PoolVector2Array( -119.532, -187.229, -109.605, -187.403, -114.133, -158.321 )
+position = Vector2( -109, -45 )
+polygon = PoolVector2Array( -301, -162, -291, -165, -287.138, -135.849 )
 
 [node name="CollisionPolygon2D7" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -1.06055, -44.5477 )
-polygon = PoolVector2Array( 87.7524, -143.334, 102.159, -165.798, 144.157, -156.031, 156.61, -168.484, 182.981, -159.694, 188.964, -151.88, 168.453, -134.544 )
+position = Vector2( -111.5, -45.5 )
+polygon = PoolVector2Array( -119.532, -187.229, -109.605, -187.403, -114.133, -158.321 )
 
 [node name="CollisionPolygon2D8" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -1434.45, -310.403 )
-polygon = PoolVector2Array( 1356.97, 78.4217, 1367.77, 78.9442, 1362.72, 107.852 )
+position = Vector2( -112.031, -45.4005 )
+polygon = PoolVector2Array( 87.7524, -143.334, 102.159, -165.798, 144.157, -156.031, 156.61, -168.484, 182.981, -159.694, 188.964, -151.88, 168.453, -134.544 )
 
 [node name="CollisionPolygon2D9" type="CollisionPolygon2D" parent="ZoneDeath"]
-position = Vector2( -1434.45, -310.403 )
-polygon = PoolVector2Array( 1409.39, 89.3927, 1414.61, 63.4455, 1403.47, 62.7489 )
+position = Vector2( -1545.42, -311.256 )
+polygon = PoolVector2Array( 1356.97, 78.4217, 1367.77, 78.9442, 1362.72, 107.852 )
 
 [node name="CollisionPolygon2D10" type="CollisionPolygon2D" parent="ZoneDeath"]
-polygon = PoolVector2Array( 1131.46, -232.048, 1140.29, -231.837, 1135.56, -204.403 )
+position = Vector2( -1544.5, -311.5 )
+polygon = PoolVector2Array( 1409.39, 89.3927, 1414.61, 63.4455, 1403.47, 62.7489 )
 
 [node name="CollisionPolygon2D11" type="CollisionPolygon2D" parent="ZoneDeath"]
-polygon = PoolVector2Array( 1177.39, -232.258, 1187.27, -232.153, 1182.23, -203.772 )
+position = Vector2( -110.97, -0.852753 )
+polygon = PoolVector2Array( 1131.46, -232.048, 1140.29, -231.837, 1135.56, -204.403 )
 
 [node name="CollisionPolygon2D12" type="CollisionPolygon2D" parent="ZoneDeath"]
-polygon = PoolVector2Array( 1272.83, -203.643, 1270.17, -211.781, 1300.05, -215.569 )
+position = Vector2( -110.97, -0.852753 )
+polygon = PoolVector2Array( 1177.39, -232.258, 1187.27, -232.153, 1182.23, -203.772 )
 
 [node name="CollisionPolygon2D13" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -110.97, -0.852753 )
+polygon = PoolVector2Array( 1272.83, -203.643, 1270.17, -211.781, 1300.05, -215.569 )
+
+[node name="CollisionPolygon2D14" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -110.97, -0.852753 )
 polygon = PoolVector2Array( 1630.31, -214.364, 1631.54, -203.896, 1603.58, -204.23 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneDeath"]
+position = Vector2( -16.0001, -77 )
+shape = SubResource( 3 )
 
 [node name="Finish" type="Area2D" parent="."]
 position = Vector2( -20.1061, -45.3967 )
@@ -122,7 +129,7 @@ position = Vector2( 191, 132 )
 position = Vector2( 236, 96 )
 
 [node name="Cabinet5" parent="." instance=ExtResource( 4 )]
-position = Vector2( 335, 131 )
+position = Vector2( 336, 131 )
 
 [node name="Ladle10" parent="." instance=ExtResource( 7 )]
 position = Vector2( 279, 73 )
