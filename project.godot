@@ -28,6 +28,7 @@ config/windows_native_icon="res://Icon.ico"
 [display]
 
 window/size/borderless=true
+window/size/fullscreen=true
 window/dpi/allow_hidpi=true
 
 [input]
