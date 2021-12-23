@@ -50,3 +50,10 @@ pipeline:
   #    - sed 's@keystore/release_user=".*"@keystore/release_user="'$SECRET_RELEASE_KEYSTORE_USER'"@g' -i export_presets.cfg
   #    - sed 's@keystore/release_password=".*"@keystore/release_password="'$SECRET_RELEASE_KEYSTORE_PASSWORD'"@g' -i export_presets.cfg
   #    - godot -v --export "Android" ../build/android/$EXPORT_NAME.apk
+  package-web:
+    image: alpine
+    commands:
+      - apk add zip
+      - zip build/Dinonuggy\'s\ Journey\ for\ Web.zip build/Dinonuggy\'s\ Journey\ for\ Web/*
+      - rm -rf build/Dinonuggy\'s\ Journey\ for\ Web
+      - ls build
