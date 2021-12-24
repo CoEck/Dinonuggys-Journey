@@ -4,7 +4,10 @@
 
 <h1>Dinonuggy's Journey</h1>
 
-<div>
+<div style="
+	display: flex;
+	justify-content: space-around;
+">
 
 <a href="https://godotengine.org">
 <img src="https://img.shields.io/badge/Godot-Game%20engine-blue?logo=godotengine&logoColor=white"></img>
