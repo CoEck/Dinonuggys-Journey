@@ -4,13 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project kind of adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) but not fully because all of the *API* stuff doesn't make sense for this game. There is now alpha or beta here. *MAJOR*, *MINOR* or *PATCH* are just used as a means of saying which that *MAJOR* has bigger changes than *MINOR* and that *MINOR* has bigger changed than *PATCH*.
 
-## [Unreleased]
+## [1.11.9] 2021-12-24
+### Added
+- Automated releases on Codeberg with checksums and changelog
+
+## [1.11.7] 2021-12-24
+### Added
+- CI pipelines status in README.md
+
+## [1.11.2] 2021-12-23
 ### Added
 - Automated godot exports
 
 ## [1.9.2] - 2021-11-24
 ### Added
-- Boot splash image
+- Boot splash image*
 - Multiple icon sizes for exports
 
 ## Changed
