@@ -4,9 +4,15 @@
 
 <h1>Dinonuggy's Journey</h1>
 
+<div>
+
 <a href="https://godotengine.org">
 <img src="https://img.shields.io/badge/Godot-Game%20engine-blue?logo=godotengine&logoColor=white"></img>
 </a>
+
+![status-badge](https://ci.codeberg.org/api/badges/CoEck/Dinonuggys-Journey/status.svg)
+
+</div>
 
 </div>
 
