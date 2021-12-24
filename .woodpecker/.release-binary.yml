@@ -69,6 +69,7 @@ pipeline:
       event: tag
   gitea_release:
     image: plugins/gitea-release
+    secrets: [ gitea_token token ]
     settings:
       api_key: $${gitea_token}
       base_url: https://codeberg.org
