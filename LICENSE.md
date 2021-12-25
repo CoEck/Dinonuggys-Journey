@@ -28,7 +28,7 @@ Copyright © 2021 [Ole_Koenig_der_Dinonuggies](https://codeberg.org/Ole_Koenig_d
 Copyright © 2021 [paulderpanzerfahrer](https://codeberg.org/paulderpanzerfahrer)  
 Copyright © 2021 [Schnau](https://codeberg.org/Schnau)
 
-## Images
+All images of the game are licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) and have the above copyright.
 
 ## Code
 
