@@ -1,4 +1,24 @@
 pipeline:
+  changelog:
+    image: quay.io/git-chglog/git-chglog:latest
+    secrets: [ gitea-token ]
+    commands:
+      # pull tags
+      - git fetch
+      - git checkout ${CI_REPO_DEFAULT_BRANCH}
+      # generate changelog
+      - git-chglog > CHANGELOG.md
+      # configure git
+      - git config --global user.email "mail@ci.codeberg.org"
+      - git config --global user.name "Codeberg CI"
+      - git remote remove origin
+      - git remote add origin "https://$${gitea_token}@codeberg.org/${CI_REPO_OWNER}/${CI_REPO_NAME}.git"
+      # deploy changelog
+      - git add CHANGELOG.md
+      - git commit -m "docs(changelog):\ update"
+      - git push origin main
+    when:
+      event: tag
   build-linux:
     image: barichello/godot-ci
     commands:
