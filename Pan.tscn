@@ -4,6 +4,8 @@
 
 [node name="Pan" type="StaticBody2D"]
 position = Vector2( 0, -18 )
+collision_layer = 0
+collision_mask = 7
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )

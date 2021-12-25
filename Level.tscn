@@ -28,9 +28,6 @@
 a = Vector2( 2172, -3.99997 )
 b = Vector2( -1868, -3.99997 )
 
-[sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 93, 250 )
-
 [node name="Level" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 6 )]
@@ -39,9 +36,8 @@ script = ExtResource( 1 )
 speed = 125
 
 [node name="ZoneDeath" type="Area2D" parent="."]
-position = Vector2( 1548, 308 )
-collision_layer = 2
-collision_mask = 2
+position = Vector2( 1548, 307 )
+collision_layer = 0
 __meta__ = {
 "_edit_group_": true
 }
@@ -101,17 +97,6 @@ polygon = PoolVector2Array( 1630.31, -214.364, 1631.54, -203.896, 1603.58, -204.
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneDeath"]
 position = Vector2( -16.0001, -77 )
 shape = SubResource( 3 )
-
-[node name="Finish" type="Area2D" parent="."]
-position = Vector2( -20.1061, -45.3967 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Finish"]
-position = Vector2( 3673.11, 87.3967 )
-shape = SubResource( 2 )
-
-[node name="Sprite" type="Sprite" parent="Finish"]
-position = Vector2( 3604.11, 87.3967 )
-texture = ExtResource( 8 )
 
 [node name="Table7" parent="." instance=ExtResource( 5 )]
 position = Vector2( 63, 132 )
@@ -241,7 +226,7 @@ position = Vector2( 1572, 92 )
 rotation = -0.0680678
 
 [node name="Apple" parent="." instance=ExtResource( 15 )]
-position = Vector2( 978, 91 )
+position = Vector2( 977, 83 )
 
 [node name="PlateClean5" parent="." instance=ExtResource( 20 )]
 position = Vector2( 1728, 96 )
@@ -287,7 +272,7 @@ position = Vector2( 2052, 132 )
 position = Vector2( 1767, 96 )
 
 [node name="Apple2" parent="." instance=ExtResource( 15 )]
-position = Vector2( 1820, 96 )
+position = Vector2( 1728, 83 )
 
 [node name="Cup" parent="." instance=ExtResource( 9 )]
 position = Vector2( 1853, 96 )
@@ -306,7 +291,7 @@ position = Vector2( 1775, 26 )
 position = Vector2( 2180, 131 )
 
 [node name="Apple3" parent="." instance=ExtResource( 15 )]
-position = Vector2( 2137, 82 )
+position = Vector2( 2136, 74 )
 
 [node name="Fork20" parent="." instance=ExtResource( 2 )]
 position = Vector2( 2210, 89 )
@@ -440,5 +425,5 @@ position = Vector2( 1132, 121 )
 [node name="PlateTripleDirty5" parent="." instance=ExtResource( 24 )]
 position = Vector2( 1169, 121 )
 
-[connection signal="body_entered" from="ZoneDeath" to="Player" method="_on_ZoneDeath_body_entered"]
 [connection signal="body_entered" from="Finish" to="Player" method="_on_Finish_body_entered"]
+[connection signal="body_entered" from="ZoneDeath" to="Player" method="_on_ZoneDeath_body_entered"]

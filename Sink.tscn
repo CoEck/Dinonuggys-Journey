@@ -3,6 +3,8 @@
 [ext_resource path="res://Sink.png" type="Texture" id=1]
 
 [node name="Sink" type="StaticBody2D"]
+collision_layer = 0
+collision_mask = 7
 
 [node name="Spüle" type="Sprite" parent="."]
 texture = ExtResource( 1 )
