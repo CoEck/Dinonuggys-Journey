@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Ladle.png" type="Texture" id=1]
+
+[node name="Ladle" type="StaticBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+light_mask = 0
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( 0, -0.0234108 )
+polygon = PoolVector2Array( -8.00393, 7.04257, -8.00393, 12.9242, -5.00054, 15.9693, 2.96679, 15.9693, 5.97018, 13.0076, 6.01189, 6.91743, 4.44356, 11.4425, -0.800512, 11.5127, -7.42584, 11.4893 )

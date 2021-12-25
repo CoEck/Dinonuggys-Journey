@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Cup.png" type="Texture" id=1]
+
+[node name="Cup" type="StaticBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 7.52015, 0.118117 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -8.45677, -7.87364, -8.4174, 4.09561, -5.46446, 8.03287, 5.4811, 8.11161, 13.4344, 2.08762, 13.5131, -3.81826, 12.5682, -3.81826, 12.4885, -4.85015, 8.59153, -4.88132, 8.59153, -7.87364, 7.41036, -7.87364, 6.54416, 3.93812, 3.31561, 7.00918, -3.06274, 7.08793, -6.60626, 4.21373, -7.59058, -7.87364 )
