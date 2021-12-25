@@ -15,6 +15,8 @@ This game was made with Godot Engine, which is available under the following lic
 
 # The game itself
 
+## Images
+
 Copyright © 2021 [ent](https://codeberg.org/ent)  
 Copyright © 2021 [papojari](https://codeberg.org/papojari)  
 Copyright © 2021 [MaxBlxck](https://codeberg.org/MaxBlxck)  
@@ -28,4 +30,35 @@ Copyright © 2021 [Schnau](https://codeberg.org/Schnau)
 
 ## Images
 
-All images of the game are licensed under [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
+## Code
+
+All of the code and files other than images are licensed under the following license:
+
+---
+
+**Dinonuggy's Journey**  
+*A game where a fried nugget in from of a Dino has to escape a kitchen.*
+
+Copyright © 2021 [ent](https://codeberg.org/ent)  
+Copyright © 2021 [papojari](https://codeberg.org/papojari)  
+Copyright © 2021 [MaxBlxck](https://codeberg.org/MaxBlxck)  
+Copyright © 2021 [juicy](https://codeberg.org/juicy)  
+Copyright © 2021 [justus](https://codeberg.org/justus)  
+Copyright © 2021 [NEXDT](https://codeberg.org/NEXDT)  
+Copyright © 2021 [niklas_lodwig](https://codeberg.org/niklas_lodwig)  
+Copyright © 2021 [Ole_Koenig_der_Dinonuggies](https://codeberg.org/Ole_Koenig_der_Dinonuggies)  
+Copyright © 2021 [paulderpanzerfahrer](https://codeberg.org/paulderpanzerfahrer)  
+Copyright © 2021 [Schnau](https://codeberg.org/Schnau)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
