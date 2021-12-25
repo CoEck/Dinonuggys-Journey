@@ -28,4 +28,4 @@ Copyright © 2021 [Schnau](https://codeberg.org/Schnau)
 
 ## Images
 
-All images of the game are licensed under [CC-BY-NC-ND 4.0](under https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
+All images of the game are licensed under [CC-BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
