@@ -33,7 +33,7 @@ extents = Vector2( 93, 250 )
 [node name="Level" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 6 )]
-position = Vector2( 67, 78 )
+position = Vector2( 67, 81 )
 script = ExtResource( 1 )
 speed = 125
 
@@ -419,8 +419,7 @@ position = Vector2( 2047.89, 195.132 )
 position = Vector2( 2167.89, 195.132 )
 
 [node name="Deepfryer" parent="." instance=ExtResource( 14 )]
-position = Vector2( 63, 72 )
-scale = Vector2( 2, 2 )
+position = Vector2( 62, 72 )
 
 [node name="Ladle16" parent="." instance=ExtResource( 7 )]
 position = Vector2( 1938, 76 )
