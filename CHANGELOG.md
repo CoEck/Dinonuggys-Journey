@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project kind of adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) but not fully because all of the *API* stuff doesn't make sense for this game. There is now alpha or beta here. *MAJOR*, *MINOR* or *PATCH* are just used as a means of saying which that *MAJOR* has bigger changes than *MINOR* and that *MINOR* has bigger changed than *PATCH*.
 
+## [1.11.12] 2021-12-25
+### Changed
+- Don't put relevant changelog section in release anymore. Instead link to it.
+
 ## [1.11.10] 2021-12-24
 ### Changed
 - Only put relevant changelog section in release notes instead of whole changelog.
