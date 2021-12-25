@@ -24,11 +24,26 @@
 [ext_resource path="res://Tiles.tscn" type="PackedScene" id=23]
 [ext_resource path="res://PlateTripleDirty.tscn" type="PackedScene" id=24]
 
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 93, 250 )
+
 [sub_resource type="SegmentShape2D" id=3]
 a = Vector2( 2172, -3.99997 )
 b = Vector2( -1868, -3.99997 )
 
 [node name="Level" type="Node2D"]
+
+[node name="Finish" type="Area2D" parent="."]
+position = Vector2( -20.1061, -45.3967 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Finish"]
+position = Vector2( 3673.11, 87.3967 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Finish"]
+position = Vector2( 3816.11, 898.397 )
+texture = ExtResource( 8 )
+offset = Vector2( -211.996, -811 )
 
 [node name="Player" parent="." instance=ExtResource( 6 )]
 position = Vector2( 67, 81 )
