@@ -21,6 +21,10 @@ You play as a nugget in dinosaur form. Find the exit and escape!
 
 https://coeck-studios.com/dinonuggys-journey/"
 run/main_scene="res://StartScreen.tscn"
+boot_splash/image="res://BootsplashUpscaled.png"
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+boot_splash/bg_color=Color( 0.156863, 0.564706, 0.862745, 1 )
 config/icon="res://Icon.png"
 config/macos_native_icon="res://Icon.icns"
 config/windows_native_icon="res://Icon.ico"
@@ -72,5 +76,6 @@ common/enable_pause_aware_picking=true
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
+vram_compression/import_pvrtc=true
 environment/default_clear_color=Color( 0.156863, 0.564706, 0.862745, 1 )
 environment/default_environment="res://default_env.tres"
