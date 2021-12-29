@@ -1,4 +1,35 @@
 
+## v0.44.0
+
+> 2021-12-29
+
+### Refactoring
+
+* **core:** bring back player death upon death of apple
+
+
+## v0.43.0
+
+> 2021-12-29
+
+### Refactoring
+
+* **graphics:** make apple smaller to ease jumping over it
+
+
+## v0.42.4
+
+> 2021-12-29
+
+### Bug Fixes
+
+* **audio:** fix music no playing and player being stuck upon death
+
+### Documentation
+
+* **changelog:** update
+
+
 ## v0.42.3
 
 > 2021-12-26
