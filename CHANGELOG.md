@@ -1,5 +1,27 @@
 
-## v0.44.0
+<a name="v0.46.0"></a>
+## [v0.46.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.45.0...v0.46.0)
+
+> 2021-12-29
+
+### Continuous Integration
+
+* **release:** don't make a release if there is a change to markdown files or git-chglog config
+
+
+<a name="v0.45.0"></a>
+## [v0.45.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.44.0...v0.45.0)
+
+> 2021-12-29
+
+### Documentation
+
+* **changelog:** put links to compare versions in changelog
+* **changelog:** update
+
+
+<a name="v0.44.0"></a>
+## [v0.44.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.43.0...v0.44.0)
 
 > 2021-12-29
 
@@ -8,7 +30,8 @@
 * **core:** bring back player death upon death of apple
 
 
-## v0.43.0
+<a name="v0.43.0"></a>
+## [v0.43.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.42.4...v0.43.0)
 
 > 2021-12-29
 
@@ -17,7 +40,8 @@
 * **graphics:** make apple smaller to ease jumping over it
 
 
-## v0.42.4
+<a name="v0.42.4"></a>
+## [v0.42.4](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.42.3...v0.42.4)
 
 > 2021-12-29
 
@@ -30,7 +54,8 @@
 * **changelog:** update
 
 
-## v0.42.3
+<a name="v0.42.3"></a>
+## [v0.42.3](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.42.2...v0.42.3)
 
 > 2021-12-26
 
@@ -39,7 +64,8 @@
 * **changelog:** move to the end of config so that if the changelog hasn't changed there will still  be a release
 
 
-## v0.42.2
+<a name="v0.42.2"></a>
+## [v0.42.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.42.1...v0.42.2)
 
 > 2021-12-26
 
@@ -48,7 +74,8 @@
 * ***:** refactor pipelines for new versioning with v prefix and for new changelog headings
 
 
-## v0.42.1
+<a name="v0.42.1"></a>
+## [v0.42.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.42.0...v0.42.1)
 
 > 2021-12-26
 
@@ -57,7 +84,8 @@
 * **changelog:** fix deploy commit having backslash character
 
 
-## v0.42.0
+<a name="v0.42.0"></a>
+## [v0.42.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.41.1...v0.42.0)
 
 > 2021-12-26
 
@@ -66,7 +94,8 @@
 * **export:** add export presets for Linux, Mac OSC and Windows
 
 
-## v0.41.1
+<a name="v0.41.1"></a>
+## [v0.41.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.41.0...v0.41.1)
 
 > 2021-12-26
 
@@ -75,7 +104,8 @@
 * **changelog:** fix broken pipeline
 
 
-## v0.41.0
+<a name="v0.41.0"></a>
+## [v0.41.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.40.0...v0.41.0)
 
 > 2021-12-26
 
@@ -84,7 +114,8 @@
 * **boot:** add boot splash
 
 
-## v0.40.0
+<a name="v0.40.0"></a>
+## [v0.40.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.39.0...v0.40.0)
 
 > 2021-12-26
 
@@ -93,7 +124,8 @@
 * **changelog:** automatically generate changelog and deploy it
 
 
-## v0.39.0
+<a name="v0.39.0"></a>
+## [v0.39.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.38.0...v0.39.0)
 
 > 2021-12-26
 
@@ -102,7 +134,8 @@
 * **changelog:** add git-chglog configuration for automatic changelog generation
 
 
-## v0.38.0
+<a name="v0.38.0"></a>
+## [v0.38.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.37.0...v0.38.0)
 
 > 2021-12-26
 
@@ -117,7 +150,8 @@
 * **changelog:** update
 
 
-## v0.37.0
+<a name="v0.37.0"></a>
+## [v0.37.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.36.0...v0.37.0)
 
 > 2021-12-26
 
@@ -130,7 +164,8 @@
 * **changelog:** update
 
 
-## v0.36.0
+<a name="v0.36.0"></a>
+## [v0.36.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.35.1...v0.36.0)
 
 > 2021-12-26
 
@@ -139,7 +174,8 @@
 * **release:** don't parse api key as variable but directly as a secret
 
 
-## v0.35.1
+<a name="v0.35.1"></a>
+## [v0.35.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.35.0...v0.35.1)
 
 > 2021-12-26
 
@@ -148,7 +184,8 @@
 * **release:** give gitea-release pipeline access to API key
 
 
-## v0.35.0
+<a name="v0.35.0"></a>
+## [v0.35.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.34.0...v0.35.0)
 
 > 2021-12-26
 
@@ -157,7 +194,8 @@
 * **readme:** align badges horitontally
 
 
-## v0.34.0
+<a name="v0.34.0"></a>
+## [v0.34.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.33.0...v0.34.0)
 
 > 2021-12-26
 
@@ -166,7 +204,8 @@
 * **readme:** add CI status badge
 
 
-## v0.33.0
+<a name="v0.33.0"></a>
+## [v0.33.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.32.0...v0.33.0)
 
 > 2021-12-26
 
@@ -175,7 +214,8 @@
 * **release:** include checksum files
 
 
-## v0.32.0
+<a name="v0.32.0"></a>
+## [v0.32.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.31.0...v0.32.0)
 
 > 2021-12-26
 
@@ -184,7 +224,8 @@
 * ***:** only execute pipelines upon tag event
 
 
-## v0.31.0
+<a name="v0.31.0"></a>
+## [v0.31.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.30.0...v0.31.0)
 
 > 2021-12-26
 
@@ -193,7 +234,8 @@
 * ***:** add gitea-release pipeline
 
 
-## v0.30.0
+<a name="v0.30.0"></a>
+## [v0.30.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.29.0...v0.30.0)
 
 > 2021-12-26
 
@@ -202,7 +244,8 @@
 * **export:** put version number in CI exports
 
 
-## v0.29.0
+<a name="v0.29.0"></a>
+## [v0.29.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.28.0...v0.29.0)
 
 > 2021-12-26
 
@@ -211,7 +254,8 @@
 * ***:** add package-web pipeline to CI
 
 
-## v0.28.0
+<a name="v0.28.0"></a>
+## [v0.28.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.27.0...v0.28.0)
 
 > 2021-12-26
 
@@ -220,7 +264,8 @@
 * **changelog:** add changelog
 
 
-## v0.27.0
+<a name="v0.27.0"></a>
+## [v0.27.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.26.0...v0.27.0)
 
 > 2021-12-26
 
@@ -229,7 +274,8 @@
 * ***:** add config
 
 
-## v0.26.0
+<a name="v0.26.0"></a>
+## [v0.26.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.25.2...v0.26.0)
 
 > 2021-12-26
 
@@ -238,7 +284,8 @@
 * **export:** add multiple icon sizes for HTML5 export
 
 
-## v0.25.2
+<a name="v0.25.2"></a>
+## [v0.25.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.25.1...v0.25.2)
 
 > 2021-12-26
 
@@ -247,7 +294,8 @@
 * **checksums:** missing checksums
 
 
-## v0.25.1
+<a name="v0.25.1"></a>
+## [v0.25.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.25.0...v0.25.1)
 
 > 2021-12-26
 
@@ -256,7 +304,8 @@
 * **core:** finish graphic overlaying over player
 
 
-## v0.25.0
+<a name="v0.25.0"></a>
+## [v0.25.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.24.0...v0.25.0)
 
 > 2021-12-26
 
@@ -265,16 +314,18 @@
 * **collision:** rework collision system
 
 
-## v0.24.0
+<a name="v0.24.0"></a>
+## [v0.24.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.23.0...v0.24.0)
 
 > 2021-12-26
 
 ### Refactoring
 
-* **core:** change apple back to original image as requested by @ent
+* **core:** change apple back to original image as requested by [@ent](https://codeberg.org/ent)
 
 
-## v0.23.0
+<a name="v0.23.0"></a>
+## [v0.23.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.22.2...v0.23.0)
 
 > 2021-12-26
 
@@ -283,25 +334,28 @@
 * **window:** change to fullscreen
 
 
-## v0.22.2
+<a name="v0.22.2"></a>
+## [v0.22.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.22.1...v0.22.2)
 
 > 2021-12-26
 
 ### Bug Fixes
 
-* **core:** fix player being stuck in air at level start (#25)
+* **core:** fix player being stuck in air at level start ([#25](https://codeberg.org/CoEck/Dinonuggys-Journey/issues/25))
 
 
-## v0.22.1
+<a name="v0.22.1"></a>
+## [v0.22.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.22.0...v0.22.1)
 
 > 2021-12-26
 
 ### Bug Fixes
 
-* **core:** fix plates in sink having accidentally changed texture (#26)
+* **core:** fix plates in sink having accidentally changed texture ([#26](https://codeberg.org/CoEck/Dinonuggys-Journey/issues/26))
 
 
-## v0.22.0
+<a name="v0.22.0"></a>
+## [v0.22.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.21.0...v0.22.0)
 
 > 2021-12-26
 
@@ -310,7 +364,8 @@
 * **readme:** pretty up readme
 
 
-## v0.21.0
+<a name="v0.21.0"></a>
+## [v0.21.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.20.2...v0.21.0)
 
 > 2021-12-26
 
@@ -319,7 +374,8 @@
 * **readme:** add description of project, conventions, contributors and license
 
 
-## v0.20.2
+<a name="v0.20.2"></a>
+## [v0.20.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.20.1...v0.20.2)
 
 > 2021-12-26
 
@@ -328,7 +384,8 @@
 * **core:** increase deep fryers's resolution so it doesn't have to be scaled up to fit which looks odd
 
 
-## v0.20.1
+<a name="v0.20.1"></a>
+## [v0.20.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.20.0...v0.20.1)
 
 > 2021-12-25
 
@@ -337,7 +394,8 @@
 * **core:** lower apple's resolution so it doesn't have to be scaled down to fit which looks odd
 
 
-## v0.20.0
+<a name="v0.20.0"></a>
+## [v0.20.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.19.5...v0.20.0)
 
 > 2021-12-25
 
@@ -346,7 +404,8 @@
 * **core:** add w, a, s, d and space as player controls
 
 
-## v0.19.5
+<a name="v0.19.5"></a>
+## [v0.19.5](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.19.4...v0.19.5)
 
 > 2021-12-25
 
@@ -355,7 +414,8 @@
 * **core:** remove unnecessary whitespace
 
 
-## v0.19.4
+<a name="v0.19.4"></a>
+## [v0.19.4](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.19.2...v0.19.4)
 
 > 2021-12-25
 
@@ -365,12 +425,14 @@
 * **core:** center image on end screen
 
 
-## v0.19.2
+<a name="v0.19.2"></a>
+## [v0.19.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.19.3...v0.19.2)
 
 > 2021-12-25
 
 
-## v0.19.3
+<a name="v0.19.3"></a>
+## [v0.19.3](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.19.1...v0.19.3)
 
 > 2021-12-25
 
@@ -380,7 +442,8 @@
 * **core:** center image on start screen
 
 
-## v0.19.1
+<a name="v0.19.1"></a>
+## [v0.19.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.19.0...v0.19.1)
 
 > 2021-12-25
 
@@ -389,7 +452,8 @@
 * **core:** fix music only being played on one ear
 
 
-## v0.19.0
+<a name="v0.19.0"></a>
+## [v0.19.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.18.0...v0.19.0)
 
 > 2021-12-25
 
@@ -398,7 +462,8 @@
 * **export:** add extra icon formats
 
 
-## v0.18.0
+<a name="v0.18.0"></a>
+## [v0.18.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.17.0...v0.18.0)
 
 > 2021-12-25
 
@@ -407,7 +472,8 @@
 * **core:** add scenes for all the graphics
 
 
-## v0.17.0
+<a name="v0.17.0"></a>
+## [v0.17.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.16.1...v0.17.0)
 
 > 2021-12-25
 
@@ -416,7 +482,8 @@
 * **core:** player can now move around and switch scenes
 
 
-## v0.16.1
+<a name="v0.16.1"></a>
+## [v0.16.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.16.0...v0.16.1)
 
 > 2021-12-25
 
@@ -425,7 +492,8 @@
 * **core:** link start screen in project file
 
 
-## v0.16.0
+<a name="v0.16.0"></a>
+## [v0.16.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.15.0...v0.16.0)
 
 > 2021-12-25
 
@@ -434,7 +502,8 @@
 * **graphics:** add icon
 
 
-## v0.15.0
+<a name="v0.15.0"></a>
+## [v0.15.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.17.1...v0.15.0)
 
 > 2021-12-25
 
@@ -443,7 +512,8 @@
 * **core:** add music
 
 
-## v0.17.1
+<a name="v0.17.1"></a>
+## [v0.17.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.14.0...v0.17.1)
 
 > 2021-12-25
 
@@ -458,7 +528,8 @@
 * **graphics:** add icon
 
 
-## v0.14.0
+<a name="v0.14.0"></a>
+## [v0.14.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.13.0...v0.14.0)
 
 > 2021-12-25
 
@@ -467,7 +538,8 @@
 * **core:** add end screen
 
 
-## v0.13.0
+<a name="v0.13.0"></a>
+## [v0.13.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.12.0...v0.13.0)
 
 > 2021-12-25
 
@@ -476,7 +548,8 @@
 * **core:** add start screen
 
 
-## v0.12.0
+<a name="v0.12.0"></a>
+## [v0.12.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.11.3...v0.12.0)
 
 > 2021-12-25
 
@@ -485,7 +558,8 @@
 * ***:** put everything into root by file structure convention
 
 
-## v0.11.3
+<a name="v0.11.3"></a>
+## [v0.11.3](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.11.2...v0.11.3)
 
 > 2021-12-25
 
@@ -494,7 +568,8 @@
 * **graphics:** 'sprites/messer.png' → 'sprites/Messer.png'
 
 
-## v0.11.2
+<a name="v0.11.2"></a>
+## [v0.11.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.11.1...v0.11.2)
 
 > 2021-12-25
 
@@ -503,7 +578,8 @@
 * **graphics:** move 'Gabel.png' to 'sprites/'
 
 
-## v0.11.1
+<a name="v0.11.1"></a>
+## [v0.11.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.11.0...v0.11.1)
 
 > 2021-12-25
 
@@ -512,7 +588,8 @@
 * **graphics:** 'messer.png'
 
 
-## v0.11.0
+<a name="v0.11.0"></a>
+## [v0.11.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.10.0...v0.11.0)
 
 > 2021-12-25
 
@@ -521,7 +598,8 @@
 * **license:** license images under CC-BY 4.0
 
 
-## v0.10.0
+<a name="v0.10.0"></a>
+## [v0.10.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.9.1...v0.10.0)
 
 > 2021-12-25
 
@@ -530,7 +608,8 @@
 * **license:** license code under GPL
 
 
-## v0.9.1
+<a name="v0.9.1"></a>
+## [v0.9.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.9.0...v0.9.1)
 
 > 2021-12-25
 
@@ -539,7 +618,8 @@
 * **graphics:** change ladle back to better sprite or the 2
 
 
-## v0.9.0
+<a name="v0.9.0"></a>
+## [v0.9.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.8.2...v0.9.0)
 
 > 2021-12-25
 
@@ -554,7 +634,8 @@
 * **graphics:** apple, Dinonuggy, windows, cup, tablecloth, water bottle
 
 
-## v0.8.2
+<a name="v0.8.2"></a>
+## [v0.8.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.8.1...v0.8.2)
 
 > 2021-12-25
 
@@ -563,7 +644,8 @@
 * **license:** fix typo
 
 
-## v0.8.1
+<a name="v0.8.1"></a>
+## [v0.8.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.8.0...v0.8.1)
 
 > 2021-12-25
 
@@ -572,7 +654,8 @@
 * **license:** change copyright holder's profile link
 
 
-## v0.8.0
+<a name="v0.8.0"></a>
+## [v0.8.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.7.0...v0.8.0)
 
 > 2021-12-25
 
@@ -581,7 +664,8 @@
 * **license:** license images under CC-BY-NC-ND 4.0
 
 
-## v0.7.0
+<a name="v0.7.0"></a>
+## [v0.7.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.6.0...v0.7.0)
 
 > 2021-12-25
 
@@ -590,7 +674,8 @@
 * **license:** add link to respective profile pages in the game's license
 
 
-## v0.6.0
+<a name="v0.6.0"></a>
+## [v0.6.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.5.0...v0.6.0)
 
 > 2021-12-25
 
@@ -603,7 +688,8 @@
 * **graphics:** add oven, cabinet, Dinonuggy, cup
 
 
-## v0.5.0
+<a name="v0.5.0"></a>
+## [v0.5.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.4.1...v0.5.0)
 
 > 2021-12-25
 
@@ -612,7 +698,8 @@
 * **core:** implement base godot project
 
 
-## v0.4.1
+<a name="v0.4.1"></a>
+## [v0.4.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.4.0...v0.4.1)
 
 > 2021-12-25
 
@@ -621,7 +708,8 @@
 * **graphics:** fix sprite's resolutions and redesign them
 
 
-## v0.4.0
+<a name="v0.4.0"></a>
+## [v0.4.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.3.0...v0.4.0)
 
 > 2021-12-25
 
@@ -631,7 +719,8 @@
 * **graphics:** add dish, plates, clock
 
 
-## v0.3.0
+<a name="v0.3.0"></a>
+## [v0.3.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.2.0...v0.3.0)
 
 > 2021-12-25
 
@@ -640,7 +729,8 @@
 * **graphics:** change color scheme
 
 
-## v0.2.0
+<a name="v0.2.0"></a>
+## [v0.2.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.1.0...v0.2.0)
 
 > 2021-12-25
 
@@ -654,6 +744,7 @@
 * **graphics:** add color scheme
 
 
+<a name="v0.1.0"></a>
 ## v0.1.0
 
 > 2021-12-25
