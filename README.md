@@ -46,6 +46,6 @@ All files must be in the root folder of this repository.
 - `export_presets.cfg`
 - `hept32.gpl`
 
-## [Contributors](https://codeberg.org/org/CoEck/members)
+## [Contributors](https://codeberg.org/CoEck)
 
 ## [License](LICENSE.md)
