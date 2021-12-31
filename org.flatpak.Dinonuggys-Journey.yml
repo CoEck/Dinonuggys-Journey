@@ -1,0 +1,23 @@
+app-id: com.CoEckStudios.Dinonuggys-Journey
+runtime: org.freedesktop.Platform
+runtime-version: '21.08'
+base: org.godotengine.godot.BaseApp
+base-version: '3.4'
+sdk: org.freedesktop.Sdk
+command: godot-runner
+modules:
+  - name: Dinonuggys-Journey
+    buildsystem: simple
+    build-commands:
+      - install -D godot-runner.pck /app/bin/godot-runner.pck
+      - install -D LICENSE.md /app/bin/LICENSE.md
+    sources:
+      - type: file
+        path: build/godot-runner.pck
+      - type: file
+        path: LICENSE.md
+finish-args:
+  - "--share=ipc"
+  - "--socket=x11"
+  - "--socket=pulseaudio"
+  - "--device=dri"
