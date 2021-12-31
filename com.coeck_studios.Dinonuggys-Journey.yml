@@ -1,4 +1,4 @@
-app-id: com.CoEckStudios.Dinonuggys-Journey
+app-id: com.coeck_studios.Dinonuggys-Journey
 runtime: org.freedesktop.Platform
 runtime-version: '21.08'
 base: org.godotengine.godot.BaseApp
