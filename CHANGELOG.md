@@ -1,4 +1,45 @@
 
+<a name="v0.49.0"></a>
+## [v0.49.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.48.0...v0.49.0)
+
+> 2021-12-31
+
+### Continuous Integration
+
+* merge godot-package-web and godot-build-web pipeline
+
+
+<a name="v0.48.0"></a>
+## [v0.48.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.47.0...v0.48.0)
+
+> 2021-12-31
+
+### Continuous Integration
+
+* ***:** rename rename build to godot-build
+
+
+<a name="v0.47.0"></a>
+## [v0.47.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.46.1...v0.47.0)
+
+> 2021-12-31
+
+### Features
+
+* **packaging:** add flatpak manifest
+
+
+<a name="v0.46.1"></a>
+## [v0.46.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.46.0...v0.46.1)
+
+> 2021-12-30
+
+### Documentation
+
+* **changelog:** update
+* **readme:** fix having to log in to see contributors
+
+
 <a name="v0.46.0"></a>
 ## [v0.46.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.45.0...v0.46.0)
 
