@@ -13,7 +13,7 @@ modules:
       - install -D LICENSE.md /app/bin/LICENSE.md
     sources:
       - type: file
-        path: build/godot-runner.pck
+        path: godot-build/godot-runner.pck
       - type: file
         path: LICENSE.md
 finish-args:

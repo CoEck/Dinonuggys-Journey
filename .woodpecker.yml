@@ -1,42 +1,42 @@
 pipeline:
-  build-linux:
+  godot-build-linux:
     image: barichello/godot-ci
     commands:
-      - mkdir -v -p build
-      - godot -v --export "Linux/X11" build/Dinonuggy\'s\ Journey\ for\ Linux\ ${CI_COMMIT_TAG}.x86_64
-      - ls build
+      - mkdir -v -p godot-build
+      - godot -v --export "Linux/X11" godot-build/Dinonuggy\'s\ Journey\ for\ Linux\ ${CI_COMMIT_TAG}.x86_64
+      - ls godot-build
     when:
       event: tag
-  build-windows:
+  godot-build-windows:
     image: barichello/godot-ci
     commands:
-      - mkdir -v -p build
-      - godot -v --export "Windows Desktop" build/Dinonuggy\'s\ Journey\ for\ Windows\ ${CI_COMMIT_TAG}.exe
-      - ls build
+      - mkdir -v -p godot-build
+      - godot -v --export "Windows Desktop" godot-build/Dinonuggy\'s\ Journey\ for\ Windows\ ${CI_COMMIT_TAG}.exe
+      - ls godot-build
     when:
       event: tag
-  build-mac:
+  godot-build-mac:
     image: barichello/godot-ci
     commands:
-      - mkdir -v -p build
-      - godot -v --export "Mac OSX" build/Dinonuggy\'s\ Journey\ for\ Mac\ OSX\ ${CI_COMMIT_TAG}.zip
-      - ls build
+      - mkdir -v -p godot-build
+      - godot -v --export "Mac OSX" godot-build/Dinonuggy\'s\ Journey\ for\ Mac\ OSX\ ${CI_COMMIT_TAG}.zip
+      - ls godot-build
     when:
       event: tag
-  build-web:
+  godot-build-web:
     image: barichello/godot-ci
     commands:
-      - mkdir -v -p build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}
-      - godot -v --export "HTML5" build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/index.html
-      - ls build
+      - mkdir -v -p godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}
+      - godot -v --export "HTML5" godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/index.html
+      - ls godot-build
     when:
       event: tag
   # Android Debug Job. It will use the generated debug.keystore.
   #debug-android:
   #  image: ${BUILD_IMAGE}
   #  commands:
-  #    - mkdir -v -p build/android
-  #    - godot -v --export-debug "Android Debug" ../build/android/$EXPORT_NAME-debug.apk
+  #    - mkdir -v -p godot-build/android
+  #    - godot -v --export-debug "Android Debug" ../godot-build/android/$EXPORT_NAME-debug.apk
   # Android Release Job. You will need to include keystore and password in the GitLab variable settings:
   # 1. Take your generated keystore and convert it to Base64:
   #   Linux & macOS: `base64 release.keystore -w 0`
@@ -44,7 +44,7 @@ pipeline:
   # 2. Go to GitLab Project > Settings > CI/CD > Variables and copy the Base64-encoded keystore value in a new variable `SECRET_RELEASE_KEYSTORE_BASE64` as type variable.
   # 3. Create a second variable SECRET_RELEASE_KEYSTORE_USER as type variable with the alias of your keystore as value.
   # 4. Create a third variable SECRET_RELEASE_KEYSTORE_PASSWORD as type variable with the password of your keystore as value.
-  #build-android:
+  #godot-build-android:
   #  image: ${BUILD_IMAGE}
   #  rules:
   #    - if: $SECRET_RELEASE_KEYSTORE_BASE64
@@ -52,19 +52,19 @@ pipeline:
   #    - if: $SECRET_RELEASE_KEYSTORE_PASSWORD
   #  commands:
   #    - echo $SECRET_RELEASE_KEYSTORE_BASE64 | base64 --decode > /root/release.keystore
-  #    - mkdir -v -p build/android
+  #    - mkdir -v -p godot-build/android
   #    - cd $EXPORT_NAME
   #    - sed 's@keystore/release=".*"@keystore/release="'/root/release.keystore'"@g' -i export_presets.cfg
   #    - sed 's@keystore/release_user=".*"@keystore/release_user="'$SECRET_RELEASE_KEYSTORE_USER'"@g' -i export_presets.cfg
   #    - sed 's@keystore/release_password=".*"@keystore/release_password="'$SECRET_RELEASE_KEYSTORE_PASSWORD'"@g' -i export_presets.cfg
-  #    - godot -v --export "Android" ../build/android/$EXPORT_NAME.apk
-  package-web:
+  #    - godot -v --export "Android" ../godot-build/android/$EXPORT_NAME.apk
+  godot-package-web:
     image: alpine
     commands:
       - apk add zip
-      - zip build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}.zip build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/*
-      - rm -rf build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}
-      - ls build
+      - zip godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}.zip build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/*
+      - rm -rf godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}
+      - ls godot-build
     when:
       event: tag
   gitea_release:
@@ -75,7 +75,7 @@ pipeline:
         from_secret: gitea_token
       base_url: https://codeberg.org
       files:
-        - build/*
+        - godot-build/*
       checksum:
         - sha256
         - sha512
