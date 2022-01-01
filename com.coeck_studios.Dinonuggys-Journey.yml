@@ -16,6 +16,7 @@ modules:
       - install -D Icon144x144.png /app/share/icons/hicolor/144x144/apps/com.coeck_studios.Dinonuggys-Journey.png
       - install -D Icon180x180.png /app/share/icons/hicolor/180x180/apps/com.coeck_studios.Dinonuggys-Journey.png
       - install -D Icon512x512.png /app/share/icons/hicolor/512x512/apps/com.coeck_studios.Dinonuggys-Journey.png
+      - install -D com.coeck_studios.Dinonuggys-Journey.desktop /app/share/applications/com.coeck_studios.Dinonuggys-Journey.desktop
     sources:
       - type: file
         path: godot-build/godot-runner.pck
@@ -31,6 +32,8 @@ modules:
         path: Icon180x180.png
       - type: file
         path: Icon512x512.png
+      - type: file
+        path: com.coeck_studios.Dinonuggys-Journey.desktop
 finish-args:
   - "--share=ipc"
   - "--socket=x11"
