@@ -60,6 +60,14 @@ pipeline:
   #    - sed 's@keystore/release_user=".*"@keystore/release_user="'$SECRET_RELEASE_KEYSTORE_USER'"@g' -i export_presets.cfg
   #    - sed 's@keystore/release_password=".*"@keystore/release_password="'$SECRET_RELEASE_KEYSTORE_PASSWORD'"@g' -i export_presets.cfg
   #    - godot -v --export "Android" ../godot-build/android/$EXPORT_NAME.apk
+  godot-build-linux-pack:
+    image: barichello/godot-ci
+    commands:
+      - mkdir -v -p godot-build
+      - godot -v --export-pack "Linux/X11" godot-build/godot-runner.pck
+      - ls godot-build
+    when:
+      event: tag
   gitea-release:
     image: plugins/gitea-release
     secrets: [ gitea_token token ]
