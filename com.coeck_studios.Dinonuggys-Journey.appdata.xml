@@ -5,7 +5,9 @@
 	<id>com.coeck_studios.Dinonuggys-Journey</id>
 	<name>Dinonuggy's Journey</name>
 	<summary>A pixel art 2d platformer game.</summary>
-	<description>A pixel art 2d platformer game developed for the project week 2021 at the Marie-Curie-Gymnasium Wittenberge. You play as a nugget in dinosaur form. Find the exit and escape!</description>
+	<description>
+		<p>A pixel art 2d platformer game developed for the project week 2021 at the Marie-Curie-Gymnasium Wittenberge. You play as a nugget in dinosaur form. Find the exit and escape!</p>
+	</description>
 	<launchable type="desktop-id">com.coeck_studios.Dinonuggys-Journey.desktop</launchable>
 	<content_rating type="oars-1.1">
 		<content_attribute id="violence-cartoon">mild</content_attribute>
