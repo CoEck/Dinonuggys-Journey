@@ -1,4 +1,48 @@
 
+<a name="v0.55.2"></a>
+## [v0.55.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.55.1...v0.55.2)
+
+> 2022-01-03
+
+### Bug Fixes
+
+* **appdata:** fix `</description>` formatting
+
+
+<a name="v0.55.1"></a>
+## [v0.55.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.56.1...v0.55.1)
+
+> 2022-01-03
+
+### Documentation
+
+* **changelog:** update
+
+### Rename
+
+* com.coeck_studios.Dinonuggys-Journey.metainfo.xml → com.coeck_studios.Dinonuggys-Journey.appdata.xml
+
+
+<a name="v0.56.1"></a>
+## [v0.56.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.56.0...v0.56.1)
+
+> 2022-01-03
+
+### Bug Fixes
+
+* **appdata:** fix </description> formatting
+
+
+<a name="v0.56.0"></a>
+## [v0.56.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.55.0...v0.56.0)
+
+> 2022-01-03
+
+### Rename
+
+* com.coeck_studios.Dinonuggys-Journey.metainfo.xml → com.coeck_studios.Dinonuggys-Journey.appdata.xml
+
+
 <a name="v0.55.0"></a>
 ## [v0.55.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.54.0...v0.55.0)
 
