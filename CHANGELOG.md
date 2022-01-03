@@ -1,4 +1,113 @@
 
+<a name="v0.55.0"></a>
+## [v0.55.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.54.0...v0.55.0)
+
+> 2022-01-03
+
+### Chore
+
+* **export:** update descriptions in export presets
+
+### Continuous Integration
+
+* **build:** add godot-build-linux-pack pipeline
+
+
+<a name="v0.54.0"></a>
+## [v0.54.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.54.1...v0.54.0)
+
+> 2022-01-03
+
+
+<a name="v0.54.1"></a>
+## [v0.54.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.52.0...v0.54.1)
+
+> 2022-01-03
+
+### Chore
+
+* **export:** update descriptions in export presets
+
+### Delete
+
+* **flatpak:** delete flatpak manifest and put it in the flathub repository
+
+### Features
+
+* add gameplay preview
+
+
+<a name="v0.52.0"></a>
+## [v0.52.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.53.0...v0.52.0)
+
+> 2022-01-02
+
+
+<a name="v0.53.0"></a>
+## [v0.53.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.51.0...v0.53.0)
+
+> 2022-01-02
+
+### Features
+
+* add gameplay preview
+* **export:** add app metadata to flatpak
+
+
+<a name="v0.51.0"></a>
+## [v0.51.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.50.0...v0.51.0)
+
+> 2022-01-01
+
+### Features
+
+* **export:** add .desktop file to flatpak
+
+
+<a name="v0.50.0"></a>
+## [v0.50.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.49.3...v0.50.0)
+
+> 2022-01-01
+
+### Features
+
+* **export:** add icons to flatpak
+
+
+<a name="v0.49.3"></a>
+## [v0.49.3](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.49.2...v0.49.3)
+
+> 2021-12-31
+
+### Rename
+
+* **graphics:** remove space from icon file names to not cause trouble with flatpak
+
+
+<a name="v0.49.2"></a>
+## [v0.49.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.49.1...v0.49.2)
+
+> 2021-12-31
+
+### Bug Fixes
+
+* **export:** fix app ids
+
+
+<a name="v0.49.1"></a>
+## [v0.49.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.49.0...v0.49.1)
+
+> 2021-12-31
+
+### Continuous Integration
+
+* **release:** rename gitea_release pipeline to gitea-release
+
+### Documentation
+
+* **changelog:** update
+
+
 <a name="v0.49.0"></a>
 ## [v0.49.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.48.0...v0.49.0)
 
