@@ -28,11 +28,8 @@
 		</screenshot>
 	</screenshots>
 	<releases>
-		<release version="0.58.0" date="2022-01-03">
-			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.58.0</url>
-		</release>
-		<release version="0.58.1" date="2022-01-05">
-			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.58.1</url>
+		<release version="0.59.2" date="2022-01-06">
+			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.59.2</url>
 		</release>
 	</releases>
 </component>
