@@ -81,6 +81,7 @@ pipeline:
       - git config --global user.email "mail@ci.codeberg.org"
       - git config --global user.name "Codeberg CI"
       # deploy changelog
+      - git add CHANGELOG.md
       - >
         git commit -m 'docs(changelog): update' ; git push
     when:
