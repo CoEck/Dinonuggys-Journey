@@ -1,6 +1,8 @@
 [Desktop Entry]
 Name=Dinonuggy's Journey
+Name[fr]=l'aventure de Dinonuggy
 GenericName=Game
+GenericName[fr]=Jeu
 Exec=godot-runner.pck
 Type=Application
 Icon=com.coeck_studios.Dinonuggys-Journey
