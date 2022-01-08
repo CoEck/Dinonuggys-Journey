@@ -1,4 +1,133 @@
 
+<a name="v0.60.1"></a>
+## [v0.60.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.60.0...v0.60.1)
+
+> 2022-01-09
+
+### Refactoring
+
+* **core:** clear default environment as the project is not 3d and therefore this is  just causing errors
+
+
+<a name="v0.60.0"></a>
+## [v0.60.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.59.2...v0.60.0)
+
+> 2022-01-08
+
+### Continuous Integration
+
+* **woodpecker-deploy-web:** init
+
+
+<a name="v0.59.2"></a>
+## [v0.59.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/test...v0.59.2)
+
+> 2022-01-06
+
+### Chore
+
+* **appdata:** update releases
+
+
+<a name="test"></a>
+## [test](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.59.1...test)
+
+> 2022-01-06
+
+### Documentation
+
+* **changelog:** update
+
+
+<a name="v0.59.1"></a>
+## [v0.59.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.59.0...v0.59.1)
+
+> 2022-01-06
+
+### Continuous Integration
+
+* **changelog:** fix changelog pipeline formatting
+
+
+<a name="v0.59.0"></a>
+## [v0.59.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.58.2...v0.59.0)
+
+> 2022-01-06
+
+### Features
+
+* **.desktop:** add German translations
+* **.desktop:** add French translations
+
+
+<a name="v0.58.2"></a>
+## [v0.58.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.58.1...v0.58.2)
+
+> 2022-01-06
+
+### Continuous Integration
+
+* **changelog:** fix changelog pipeline formatting
+
+
+<a name="v0.58.1"></a>
+## [v0.58.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.58.0...v0.58.1)
+
+> 2022-01-06
+
+### Bug Fixes
+
+* **.desktop:** fix Exec
+
+### Chore
+
+* **appdata:** update releases
+
+
+<a name="v0.58.0"></a>
+## [v0.58.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.57.1...v0.58.0)
+
+> 2022-01-03
+
+### Refactoring
+
+* **appdata:** rephrase screenshot caption
+
+
+<a name="v0.57.1"></a>
+## [v0.57.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.57.0...v0.57.1)
+
+> 2022-01-03
+
+### Bug Fixes
+
+* **appdata:** fix screenshot caption formatting by removing dot
+
+
+<a name="v0.57.0"></a>
+## [v0.57.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.56.0...v0.57.0)
+
+> 2022-01-03
+
+### Continuous Integration
+
+* **changelog:** move changelog pipeline to before gitea-release pipeline
+
+
+<a name="v0.56.0"></a>
+## [v0.56.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.55.2...v0.56.0)
+
+> 2022-01-03
+
+### Continuous Integration
+
+* **changelog:** make changelog pipeline still be successful if `git commit` fails
+
+### Documentation
+
+* **changelog:** update
+
+
 <a name="v0.55.2"></a>
 ## [v0.55.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.55.1...v0.55.2)
 
@@ -10,33 +139,13 @@
 
 
 <a name="v0.55.1"></a>
-## [v0.55.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.56.1...v0.55.1)
+## [v0.55.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.55.0...v0.55.1)
 
 > 2022-01-03
 
 ### Documentation
 
 * **changelog:** update
-
-### Rename
-
-* com.coeck_studios.Dinonuggys-Journey.metainfo.xml → com.coeck_studios.Dinonuggys-Journey.appdata.xml
-
-
-<a name="v0.56.1"></a>
-## [v0.56.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.56.0...v0.56.1)
-
-> 2022-01-03
-
-### Bug Fixes
-
-* **appdata:** fix </description> formatting
-
-
-<a name="v0.56.0"></a>
-## [v0.56.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.55.0...v0.56.0)
-
-> 2022-01-03
 
 ### Rename
 
