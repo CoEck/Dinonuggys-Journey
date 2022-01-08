@@ -78,4 +78,3 @@ vram_compression/import_etc=true
 vram_compression/import_etc2=false
 vram_compression/import_pvrtc=true
 environment/default_clear_color=Color( 0.156863, 0.564706, 0.862745, 1 )
-environment/default_environment="res://default_env.tres"
