@@ -104,3 +104,23 @@ pipeline:
       event: tag
       path:
         exclude: [ '*.md', '.chglog/**' ]
+  deploy-web:
+    image: alpine
+    secrets: [ ACCESS_TOKEN ]
+    commands:
+      - apk add git unzip rsync
+      # clone pages repository
+      - git clone https://"$${ACCESS_TOKEN}"@codeberg.org/${CI_REPO_OWNER}/pages.git /pages
+      # unzip web version
+      - unzip godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}.zip -d godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/
+      - rsync -r --delete --exclude-from=".rsyncignore" godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/ /pages
+      # configure git
+      - git config --global user.email "mail@ci.codeberg.org"
+      - git config --global user.name "Codeberg CI"
+      # deploy web version
+      - cd /pages
+      - git add -A
+      - >
+        git commit -m 'chore: update website from upstream to ${CI_COMMIT_TAG}' ; git push
+    when:
+      event: tag
