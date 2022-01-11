@@ -46,6 +46,8 @@ pipeline:
   # 2. Go to Codeberg CI > Repository > Settings > Secrets and copy the Base64-encoded keystore value in a new secret named `SECRET_RELEASE_KEYSTORE_BASE64`.
   # 3. Create a second secret named `SECRET_RELEASE_KEYSTORE_USER` with the alias of your keystore as value.
   # 4. Create a third secret named `SECRET_RELEASE_KEYSTORE_PASSWORD` with the password of your keystore as value.
+    when:
+      event: tag
   godot-build-android:
     image: barichello/godot-ci
     commands:
@@ -54,6 +56,8 @@ pipeline:
       - sed 's@keystore/release_user=".*"@keystore/release_user="'$${SECRET_RELEASE_KEYSTORE_USER}'"@g' -i export_presets.cfg
       - sed 's@keystore/release_password=".*"@keystore/release_password="'$${SECRET_RELEASE_KEYSTORE_PASSWORD}'"@g' -i export_presets.cfg
       - godot -v --export "Android" godot-build/Dinonuggy\'s\ Journey\ for\Android\ ${CI_COMMIT_TAG}.apk
+    when:
+      event: tag
   godot-build-linux-pack:
     image: barichello/godot-ci
     commands:
