@@ -1,4 +1,32 @@
 
+<a name="v0.61.0"></a>
+## [v0.61.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.60.2...v0.61.0)
+
+> 2022-01-11
+
+### Chore
+
+* **appdata:** update releases
+
+### Refactoring
+
+* **.desktop:** make game executable for launchers using .desktop files after it has been built by flathub bot
+
+
+<a name="v0.60.2"></a>
+## [v0.60.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.60.1...v0.60.2)
+
+> 2022-01-11
+
+### Documentation
+
+* **changelog:** update
+
+### Refactoring
+
+* **.desktop:** make Exec app id not a flatpak build file
+
+
 <a name="v0.60.1"></a>
 ## [v0.60.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.60.0...v0.60.1)
 
