@@ -28,6 +28,12 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="0.61.0" date="2022-01-11">
+			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.59.2</url>
+		</release>
+		<release version="0.60.2" date="2022-01-06">
+			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.59.2</url>
+		</release>
 		<release version="0.59.2" date="2022-01-06">
 			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.59.2</url>
 		</release>
