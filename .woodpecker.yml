@@ -52,6 +52,9 @@ pipeline:
     image: barichello/godot-ci
     commands:
       - echo $${SECRET_RELEASE_KEYSTORE_BASE64} | base64 --decode > /root/release.keystore
+      - sed 's@keystore/debug=".*"@keystore/debug="'/root/release.keystore'"@g' -i export_presets.cfg
+      - sed 's@keystore/debug_user=".*"@keystore/debug_user="'$${SECRET_RELEASE_KEYSTORE_USER}'"@g' -i export_presets.cfg
+      - sed 's@keystore/debug_password=".*"@keystore/debug_password="'$${SECRET_RELEASE_KEYSTORE_PASSWORD}'"@g' -i export_presets.cfg
       - sed 's@keystore/release=".*"@keystore/release="'/root/release.keystore'"@g' -i export_presets.cfg
       - sed 's@keystore/release_user=".*"@keystore/release_user="'$${SECRET_RELEASE_KEYSTORE_USER}'"@g' -i export_presets.cfg
       - sed 's@keystore/release_password=".*"@keystore/release_password="'$${SECRET_RELEASE_KEYSTORE_PASSWORD}'"@g' -i export_presets.cfg
