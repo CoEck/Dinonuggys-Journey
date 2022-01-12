@@ -49,6 +49,7 @@ pipeline:
   #  when:
   #    event: tag
   godot-build-android:
+    secrets: [ secret_release_keystore_base64, secret_release_keystore_user, secret_release_keystore_password ]
     image: barichello/godot-ci
     commands:
       - echo $${SECRET_RELEASE_KEYSTORE_BASE64} | base64 --decode > /root/release.keystore
