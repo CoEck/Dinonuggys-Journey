@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Icon512x512.png-1b0cf093b5382a3929183df90d9a131a.stex"
+path="res://.import/dinonuggys-journey.png-ea65365b10e814901dce522bbaab86c1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Icon512x512.png"
-dest_files=[ "res://.import/Icon512x512.png-1b0cf093b5382a3929183df90d9a131a.stex" ]
+source_file="res://icons/hicolor/1274x1274/dinonuggys-journey.png"
+dest_files=[ "res://.import/dinonuggys-journey.png-ea65365b10e814901dce522bbaab86c1.stex" ]
 
 [params]
 

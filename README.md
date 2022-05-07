@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Icon.png" width=30%></img>
+<img src="icons/hicolor/1274x1274/dinonuggys-journey.png" width=30%></img>
 
 <h1>Dinonuggy's Journey</h1>
 
