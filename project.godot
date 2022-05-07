@@ -20,8 +20,8 @@ config/description="Game developed for the project week 2021 at the Marie-Curie-
 You play as a nugget in dinosaur form. Find the exit and escape!
 
 https://coeck-studios.com/dinonuggys-journey/"
-run/main_scene="res://StartScreen.tscn"
-boot_splash/image="res://BootsplashUpscaled.png"
+run/main_scene="res://levels/start/default.tscn"
+boot_splash/image="res://brand/bootsplash_upscaled.png"
 boot_splash/fullsize=false
 boot_splash/use_filter=false
 boot_splash/bg_color=Color( 0.156863, 0.564706, 0.862745, 1 )

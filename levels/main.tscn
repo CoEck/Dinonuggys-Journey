@@ -1,0 +1,444 @@
+[gd_scene load_steps=26 format=2]
+
+[ext_resource path="res://characters/dinonuggy/default.gd" type="Script" id=1]
+[ext_resource path="res://models/forks/default.tscn" type="PackedScene" id=2]
+[ext_resource path="res://models/cabinet/default.tscn" type="PackedScene" id=4]
+[ext_resource path="res://models/table/default.tscn" type="PackedScene" id=5]
+[ext_resource path="res://characters/dinonuggy/default.tscn" type="PackedScene" id=6]
+[ext_resource path="res://models/ladle/default.tscn" type="PackedScene" id=7]
+[ext_resource path="res://models/finish/default.png" type="Texture" id=8]
+[ext_resource path="res://models/cups/default.tscn" type="PackedScene" id=9]
+[ext_resource path="res://models/oven/default.tscn" type="PackedScene" id=10]
+[ext_resource path="res://models/sink/default.tscn" type="PackedScene" id=11]
+[ext_resource path="res://models/pot/default.tscn" type="PackedScene" id=12]
+[ext_resource path="res://models/windows/4_trees/default.tscn" type="PackedScene" id=13]
+[ext_resource path="res://models/deepfryer/default.tscn" type="PackedScene" id=14]
+[ext_resource path="res://models/apple/default.tscn" type="PackedScene" id=15]
+[ext_resource path="res://models/clock/default.tscn" type="PackedScene" id=16]
+[ext_resource path="res://models/pan/default.tscn" type="PackedScene" id=17]
+[ext_resource path="res://models/freezer/default.tscn" type="PackedScene" id=18]
+[ext_resource path="res://models/windows/1_trees/default.tscn" type="PackedScene" id=19]
+[ext_resource path="res://models/plates/clean_plate/default.tscn" type="PackedScene" id=20]
+[ext_resource path="res://models/bowl/default.tscn" type="PackedScene" id=21]
+[ext_resource path="res://models/windows/2_trees/default.tscn" type="PackedScene" id=22]
+[ext_resource path="res://models/tiles/default.tscn" type="PackedScene" id=23]
+[ext_resource path="res://models/plates/4_stacked_dirty_plate/default.tscn" type="PackedScene" id=24]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 93, 250 )
+
+[sub_resource type="SegmentShape2D" id=3]
+a = Vector2( 2172, -3.99997 )
+b = Vector2( -1868, -3.99997 )
+
+[node name="Level" type="Node2D"]
+
+[node name="Finish" type="Area2D" parent="."]
+position = Vector2( -20.1061, -45.3967 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Finish"]
+position = Vector2( 3673.11, 87.3967 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Finish"]
+position = Vector2( 3816.11, 898.397 )
+texture = ExtResource( 8 )
+offset = Vector2( -211.996, -811 )
+
+[node name="Player" parent="." instance=ExtResource( 6 )]
+position = Vector2( 67, 81 )
+script = ExtResource( 1 )
+speed = 125
+
+[node name="ZoneDeath" type="Area2D" parent="."]
+position = Vector2( 1548, 307 )
+collision_layer = 0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -112.007, -45.8246 )
+polygon = PoolVector2Array( -1149.55, -165.681, -1148.63, -169.208, -1156.6, -170.819, -1158.44, -159.929, -1150.08, -158.549, -1126.47, -158.319, -1126.85, -163.917 )
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -112.957, -45.3502 )
+polygon = PoolVector2Array( -756.725, -188.16, -746.775, -188.289, -751.004, -159.291 )
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -113.051, -45.448 )
+polygon = PoolVector2Array( -705.524, -187.079, -695.513, -187.299, -700.639, -158.712 )
+
+[node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -111.862, -45.1508 )
+polygon = PoolVector2Array( -650.033, -159.732, -645.792, -186.419, -654.043, -186.419 )
+
+[node name="CollisionPolygon2D6" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -109, -45 )
+polygon = PoolVector2Array( -301, -162, -291, -165, -287.138, -135.849 )
+
+[node name="CollisionPolygon2D7" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -111.5, -45.5 )
+polygon = PoolVector2Array( -119.532, -187.229, -109.605, -187.403, -114.133, -158.321 )
+
+[node name="CollisionPolygon2D8" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -112.031, -45.4005 )
+polygon = PoolVector2Array( 87.7524, -143.334, 102.159, -165.798, 144.157, -156.031, 156.61, -168.484, 182.981, -159.694, 188.964, -151.88, 168.453, -134.544 )
+
+[node name="CollisionPolygon2D9" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -1545.42, -311.256 )
+polygon = PoolVector2Array( 1356.97, 78.4217, 1367.77, 78.9442, 1362.72, 107.852 )
+
+[node name="CollisionPolygon2D10" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -1544.5, -311.5 )
+polygon = PoolVector2Array( 1409.39, 89.3927, 1414.61, 63.4455, 1403.47, 62.7489 )
+
+[node name="CollisionPolygon2D11" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -110.97, -0.852753 )
+polygon = PoolVector2Array( 1131.46, -232.048, 1140.29, -231.837, 1135.56, -204.403 )
+
+[node name="CollisionPolygon2D12" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -110.97, -0.852753 )
+polygon = PoolVector2Array( 1177.39, -232.258, 1187.27, -232.153, 1182.23, -203.772 )
+
+[node name="CollisionPolygon2D13" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -110.97, -0.852753 )
+polygon = PoolVector2Array( 1272.83, -203.643, 1270.17, -211.781, 1300.05, -215.569 )
+
+[node name="CollisionPolygon2D14" type="CollisionPolygon2D" parent="ZoneDeath"]
+position = Vector2( -110.97, -0.852753 )
+polygon = PoolVector2Array( 1630.31, -214.364, 1631.54, -203.896, 1603.58, -204.23 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZoneDeath"]
+position = Vector2( -16.0001, -77 )
+shape = SubResource( 3 )
+
+[node name="Table7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 63, 132 )
+
+[node name="Table8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 655, 132 )
+
+[node name="Table9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 783, 132 )
+
+[node name="Table10" parent="." instance=ExtResource( 5 )]
+position = Vector2( 191, 132 )
+
+[node name="Cup3" parent="." instance=ExtResource( 9 )]
+position = Vector2( 236, 96 )
+
+[node name="Cabinet5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 336, 131 )
+
+[node name="Ladle10" parent="." instance=ExtResource( 7 )]
+position = Vector2( 279, 73 )
+
+[node name="Ladle11" parent="." instance=ExtResource( 7 )]
+position = Vector2( 569, 64 )
+
+[node name="Ladle12" parent="." instance=ExtResource( 7 )]
+position = Vector2( 523, 61 )
+
+[node name="Ladle13" parent="." instance=ExtResource( 7 )]
+position = Vector2( 471, 64 )
+
+[node name="Ladle14" parent="." instance=ExtResource( 7 )]
+position = Vector2( 420, 63 )
+
+[node name="Ladle15" parent="." instance=ExtResource( 7 )]
+position = Vector2( 328, 62 )
+
+[node name="Fork" parent="." instance=ExtResource( 2 )]
+position = Vector2( 294, 99 )
+rotation = 4.84154
+
+[node name="Fork5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1147.89, 113.132 )
+rotation = 6.0179
+
+[node name="Fork6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1322, 89 )
+
+[node name="Fork7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1365.89, 89.1322 )
+
+[node name="Fork8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1413, 73 )
+
+[node name="Fork10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1538.34, 119.559 )
+rotation = 0.945968
+
+[node name="Fork18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1563.54, 106.86 )
+rotation = -1.17286
+
+[node name="Fork11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1557.7, 125.345 )
+rotation = -1.40499
+
+[node name="Fork14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1576.85, 116.317 )
+rotation = 1.05418
+
+[node name="Fork17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1592.33, 121.873 )
+rotation = 1.12574
+
+[node name="Fork13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1611.87, 118.698 )
+rotation = 0.780162
+
+[node name="Fork15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1611.87, 118.698 )
+rotation = 0.780162
+
+[node name="Fork16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1600.56, 105.8 )
+rotation = -0.92677
+
+[node name="Fork19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1049.89, 117.132 )
+scale = Vector2( 3, 1 )
+
+[node name="Fork12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1533.37, 112.01 )
+rotation = 0.651008
+
+[node name="Fork4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 787, 89 )
+
+[node name="Fork2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 685, 89 )
+
+[node name="Fork3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 735, 89 )
+
+[node name="Pot" parent="." instance=ExtResource( 12 )]
+position = Vector2( 373, 96 )
+
+[node name="Pot2" parent="." instance=ExtResource( 12 )]
+position = Vector2( 892, 112 )
+
+[node name="Pan" parent="." instance=ExtResource( 17 )]
+position = Vector2( 639, 96 )
+
+[node name="Oven" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1007, 131 )
+
+[node name="Sink" parent="." instance=ExtResource( 11 )]
+position = Vector2( 1135, 131 )
+
+[node name="Sink2" parent="." instance=ExtResource( 11 )]
+position = Vector2( 1575, 131 )
+
+[node name="PlateClean" parent="." instance=ExtResource( 20 )]
+position = Vector2( 977, 96 )
+
+[node name="PlateClean2" parent="." instance=ExtResource( 20 )]
+position = Vector2( 1572, 92 )
+rotation = -0.0680678
+
+[node name="Apple" parent="." instance=ExtResource( 15 )]
+position = Vector2( 977, 83 )
+
+[node name="PlateClean5" parent="." instance=ExtResource( 20 )]
+position = Vector2( 1728, 96 )
+
+[node name="Cabinet" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1319, 131 )
+
+[node name="Table" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1447, 132 )
+
+[node name="Ladle" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1303, 77 )
+
+[node name="Ladle2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1342, 63 )
+
+[node name="Ladle3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1387, 50 )
+
+[node name="Bowl" parent="." instance=ExtResource( 21 )]
+position = Vector2( 1413, 96 )
+rotation = 3.14159
+scale = Vector2( -1, 1 )
+
+[node name="Window" parent="." instance=ExtResource( 22 )]
+position = Vector2( 1463, -39 )
+scale = Vector2( 3, 3 )
+
+[node name="Window4" parent="." instance=ExtResource( 13 )]
+position = Vector2( 731, -44 )
+scale = Vector2( 4, 4 )
+
+[node name="Cabinet2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1703, 131 )
+
+[node name="Table2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1831, 132 )
+
+[node name="Table3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2052, 132 )
+
+[node name="Bowl2" parent="." instance=ExtResource( 21 )]
+position = Vector2( 1767, 96 )
+
+[node name="Apple2" parent="." instance=ExtResource( 15 )]
+position = Vector2( 1728, 83 )
+
+[node name="Cup" parent="." instance=ExtResource( 9 )]
+position = Vector2( 1853, 96 )
+
+[node name="Ladle4" parent="." instance=ExtResource( 7 )]
+visible = false
+position = Vector2( 1935.48, 89.1679 )
+
+[node name="Ladle5" parent="." instance=ExtResource( 7 )]
+position = Vector2( 2273, 75 )
+
+[node name="Clock" parent="." instance=ExtResource( 16 )]
+position = Vector2( 1775, 26 )
+
+[node name="Cabinet3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 2180, 131 )
+
+[node name="Apple3" parent="." instance=ExtResource( 15 )]
+position = Vector2( 2136, 74 )
+
+[node name="Fork20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2210, 89 )
+
+[node name="Fork21" parent="." instance=ExtResource( 5 )]
+position = Vector2( 2369, 132 )
+
+[node name="Pot3" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2351, 96 )
+
+[node name="Ladle6" parent="." instance=ExtResource( 7 )]
+position = Vector2( 2468, 80 )
+
+[node name="Ladle7" parent="." instance=ExtResource( 7 )]
+position = Vector2( 2508, 65 )
+
+[node name="Ladle8" parent="." instance=ExtResource( 7 )]
+position = Vector2( 2545, 52 )
+
+[node name="Ladle9" parent="." instance=ExtResource( 7 )]
+position = Vector2( 3055, 70 )
+
+[node name="Freezer" parent="." instance=ExtResource( 18 )]
+position = Vector2( 2696, 131 )
+
+[node name="Fork22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2574, 89 )
+
+[node name="Fork23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2620, 89 )
+
+[node name="Cup2" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2686, 91 )
+
+[node name="PlateClean9" parent="." instance=ExtResource( 20 )]
+position = Vector2( 2686, 96 )
+
+[node name="Pan2" parent="." instance=ExtResource( 17 )]
+position = Vector2( 2756, 96 )
+
+[node name="Fork24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2724, 95 )
+rotation = 4.47502
+
+[node name="Oven2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2924, 131 )
+
+[node name="Pot4" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2892, 96 )
+
+[node name="Bowl3" parent="." instance=ExtResource( 21 )]
+position = Vector2( 2932, 96 )
+
+[node name="Sprite6" parent="." instance=ExtResource( 19 )]
+position = Vector2( 2837, -10 )
+scale = Vector2( 3, 3 )
+
+[node name="Cabinet4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 3076, 131 )
+
+[node name="Fork25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3054, 100 )
+rotation = 1.43117
+
+[node name="Table4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3204, 132 )
+
+[node name="Table5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3332, 132 )
+
+[node name="Table6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3460, 132 )
+
+[node name="Tiles" parent="." instance=ExtResource( 23 )]
+position = Vector2( 194, 195 )
+
+[node name="Tiles2" parent="." instance=ExtResource( 23 )]
+position = Vector2( 314, 195 )
+
+[node name="Tiles3" parent="." instance=ExtResource( 23 )]
+position = Vector2( 787, 195 )
+
+[node name="Tiles4" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1003, 195 )
+
+[node name="Tiles5" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1123, 195 )
+
+[node name="Tiles6" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1243, 195 )
+
+[node name="Tiles7" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1363, 195 )
+
+[node name="Tiles8" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1483, 195 )
+
+[node name="Tiles9" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1603, 195 )
+
+[node name="Tiles10" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1723, 195 )
+
+[node name="Tiles11" parent="." instance=ExtResource( 23 )]
+position = Vector2( 1843, 195 )
+
+[node name="Tiles12" parent="." instance=ExtResource( 23 )]
+position = Vector2( 2047.89, 195.132 )
+
+[node name="Tiles13" parent="." instance=ExtResource( 23 )]
+position = Vector2( 2167.89, 195.132 )
+
+[node name="Deepfryer" parent="." instance=ExtResource( 14 )]
+position = Vector2( 62, 72 )
+
+[node name="Ladle16" parent="." instance=ExtResource( 7 )]
+position = Vector2( 1938, 76 )
+
+[node name="PlateTripleDirty" parent="." instance=ExtResource( 24 )]
+position = Vector2( 2136, 97 )
+
+[node name="PlateTripleDirty2" parent="." instance=ExtResource( 24 )]
+position = Vector2( 2185, 97 )
+
+[node name="PlateTripleDirty3" parent="." instance=ExtResource( 24 )]
+position = Vector2( 2185, 84 )
+
+[node name="PlateTripleDirty4" parent="." instance=ExtResource( 24 )]
+position = Vector2( 1132, 121 )
+
+[node name="PlateTripleDirty5" parent="." instance=ExtResource( 24 )]
+position = Vector2( 1169, 121 )
+
+[connection signal="body_entered" from="Finish" to="Player" method="_on_Finish_body_entered"]
+[connection signal="body_entered" from="ZoneDeath" to="Player" method="_on_ZoneDeath_body_entered"]
