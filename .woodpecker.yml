@@ -4,11 +4,15 @@ pipeline:
     commands:
       - apk add just imagemagick
       - just build-icons
+    when:
+      event: tag
   archive-icons:
     image: alpine
     commands:
       - apk add tar
       - tar czf icons.tar.gz --directory=build icons
+    when:
+      event: tag
   godot-build-linux:
     image: barichello/godot-ci
     commands:
