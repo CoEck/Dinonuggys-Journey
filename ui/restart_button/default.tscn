@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/restart_button/default.gd" type="Script" id=2]
+[ext_resource path="res://ui/themes/default.tres" type="Theme" id=3]
+
+[node name="Restart" type="Button"]
+margin_right = 40.0
+margin_bottom = 13.0
+rect_scale = Vector2( 6, 6 )
+theme = ExtResource( 3 )
+text = "Restart"
+flat = true
+script = ExtResource( 2 )

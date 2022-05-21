@@ -51,9 +51,11 @@ func _process(delta):
 		else:_animated_sprite.stop()
 
 func _on_ZoneDeath_body_entered(body):
-	get_tree().change_scene("res://levels/main.tscn")
+	global.restart()
 
 func _on_Finish_body_entered(body):
 	get_tree().change_scene("res://levels/end/default.tscn")
+	global.dinonuggy_finished = true
 
-
+func _input(event):
+	global.restart_on_action("restart")

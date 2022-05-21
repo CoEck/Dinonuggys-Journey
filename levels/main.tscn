@@ -1,6 +1,5 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=25 format=2]
 
-[ext_resource path="res://characters/dinonuggy/default.gd" type="Script" id=1]
 [ext_resource path="res://models/forks/default.tscn" type="PackedScene" id=2]
 [ext_resource path="res://models/cabinet/default.tscn" type="PackedScene" id=4]
 [ext_resource path="res://models/table/default.tscn" type="PackedScene" id=5]
@@ -45,9 +44,8 @@ position = Vector2( 3816.11, 898.397 )
 texture = ExtResource( 8 )
 offset = Vector2( -211.996, -811 )
 
-[node name="Player" parent="." instance=ExtResource( 6 )]
+[node name="Dinonuggy" parent="." instance=ExtResource( 6 )]
 position = Vector2( 67, 81 )
-script = ExtResource( 1 )
 speed = 125
 
 [node name="ZoneDeath" type="Area2D" parent="."]
@@ -440,5 +438,5 @@ position = Vector2( 1132, 121 )
 [node name="PlateTripleDirty5" parent="." instance=ExtResource( 24 )]
 position = Vector2( 1169, 121 )
 
-[connection signal="body_entered" from="Finish" to="Player" method="_on_Finish_body_entered"]
-[connection signal="body_entered" from="ZoneDeath" to="Player" method="_on_ZoneDeath_body_entered"]
+[connection signal="body_entered" from="Finish" to="Dinonuggy" method="_on_Finish_body_entered"]
+[connection signal="body_entered" from="ZoneDeath" to="Dinonuggy" method="_on_ZoneDeath_body_entered"]

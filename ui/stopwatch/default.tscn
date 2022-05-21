@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ui/stopwatch/default.gd" type="Script" id=1]
+[ext_resource path="res://ui/themes/default.tres" type="Theme" id=3]
+
+[node name="Stopwatch" type="Label"]
+margin_right = 47.0
+margin_bottom = 13.0
+rect_scale = Vector2( 6, 6 )
+theme = ExtResource( 3 )
+text = "00:00:00.000"
+align = 1
+valign = 1
+script = ExtResource( 1 )
