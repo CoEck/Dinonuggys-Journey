@@ -1,4 +1,217 @@
 
+<a name="v0.70.1"></a>
+## [v0.70.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.70.0...v0.70.1)
+
+> 2022-05-22
+
+### Bug Fixes
+
+* .import
+* actually make restart button work
+
+
+<a name="v0.70.0"></a>
+## [v0.70.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.69.2...v0.70.0)
+
+> 2022-05-21
+
+### Continuous Integration
+
+* archive icons and release them
+
+
+<a name="v0.69.2"></a>
+## [v0.69.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.69.1...v0.69.2)
+
+> 2022-05-21
+
+### Bug Fixes
+
+* fix font
+
+
+<a name="v0.69.1"></a>
+## [v0.69.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.69.0...v0.69.1)
+
+> 2022-05-21
+
+### Continuous Integration
+
+* fix whole ci
+
+
+<a name="v0.69.0"></a>
+## [v0.69.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.68.3...v0.69.0)
+
+> 2022-05-21
+
+### Features
+
+* add ui and keybindings from [Find-Billy!](https://codeberg.org/papojari/Find-Billy) but with a pixel font
+
+
+<a name="v0.68.3"></a>
+## [v0.68.3](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.68.1...v0.68.3)
+
+> 2022-03-21
+
+### Bug Fixes
+
+* **export:** fix Android `import Etc 2` missing error
+
+
+<a name="v0.68.1"></a>
+## [v0.68.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.68.0...v0.68.1)
+
+> 2022-03-20
+
+### Bug Fixes
+
+* **export:** fix HTML5 export
+
+
+<a name="v0.68.0"></a>
+## [v0.68.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.67.5...v0.68.0)
+
+> 2022-01-16
+
+### Documentation
+
+* **readne:** add instructions on how to play the game
+
+
+<a name="v0.67.5"></a>
+## [v0.67.5](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.67.4...v0.67.5)
+
+> 2022-01-12
+
+
+<a name="v0.67.4"></a>
+## [v0.67.4](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.67.3...v0.67.4)
+
+> 2022-01-12
+
+### Continuous Integration
+
+* ***:** make ACCESS_TOKEN secret lowercase like in the Woodpecker docs and without the unnescessary access
+
+
+<a name="v0.67.3"></a>
+## [v0.67.3](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.67.2...v0.67.3)
+
+> 2022-01-12
+
+### Continuous Integration
+
+* **woodpecker-godot-build-android:** make secrets in comment lowercase
+
+
+<a name="v0.67.2"></a>
+## [v0.67.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.67.1...v0.67.2)
+
+> 2022-01-12
+
+### Continuous Integration
+
+* **woodpecker-godot-build-android:** fix stage's sed commands not being able to access required secrets
+
+
+<a name="v0.67.1"></a>
+## [v0.67.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.66.0...v0.67.1)
+
+> 2022-01-12
+
+### Continuous Integration
+
+* **woodpecker-godot-build-android:** fix stage's sed commands not being able to insert into export presets
+
+### Features
+
+* **woodpecker-godot-build-android:** insert debug details into export presets the same way it is done for release details
+
+
+<a name="v0.66.0"></a>
+## [v0.66.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.65.1...v0.66.0)
+
+> 2022-01-11
+
+### Features
+
+* **export:** add icons to android export preset
+
+
+<a name="v0.65.1"></a>
+## [v0.65.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.65.0...v0.65.1)
+
+> 2022-01-11
+
+### Continuous Integration
+
+* **woodpecker-godot-build-android:** add missing space
+
+
+<a name="v0.65.0"></a>
+## [v0.65.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.64.0...v0.65.0)
+
+> 2022-01-11
+
+### Continuous Integration
+
+* **woodpecker-godot-build-android:** list build files at the end of stage
+
+
+<a name="v0.64.0"></a>
+## [v0.64.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.63.0...v0.64.0)
+
+> 2022-01-11
+
+### Continuous Integration
+
+* fix android stages running without tag event
+* **woodpecker-debug-android:** deactivate
+
+
+<a name="v0.63.0"></a>
+## [v0.63.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.63.1...v0.63.0)
+
+> 2022-01-11
+
+
+<a name="v0.63.1"></a>
+## [v0.63.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.62.0...v0.63.1)
+
+> 2022-01-11
+
+### Continuous Integration
+
+* fix android stages running without tag event
+* uncomment android stages and update them to work with Codeberg CI and rest of the stages
+
+
+<a name="v0.62.0"></a>
+## [v0.62.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.61.1...v0.62.0)
+
+> 2022-01-11
+
+### Features
+
+* **export:** add Android export preset
+
+
+<a name="v0.61.1"></a>
+## [v0.61.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.61.0...v0.61.1)
+
+> 2022-01-11
+
+### Bug Fixes
+
+* **appdata:** fix release urls
+
+### Documentation
+
+* **changelog:** update
+
+
 <a name="v0.61.0"></a>
 ## [v0.61.0](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.60.2...v0.61.0)
 
@@ -48,23 +261,13 @@
 
 
 <a name="v0.59.2"></a>
-## [v0.59.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/test...v0.59.2)
+## [v0.59.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.59.1...v0.59.2)
 
 > 2022-01-06
 
 ### Chore
 
 * **appdata:** update releases
-
-
-<a name="test"></a>
-## [test](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.59.1...test)
-
-> 2022-01-06
-
-### Documentation
-
-* **changelog:** update
 
 
 <a name="v0.59.1"></a>
