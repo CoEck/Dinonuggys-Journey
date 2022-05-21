@@ -11,3 +11,5 @@ theme = ExtResource( 3 )
 text = "Restart"
 flat = true
 script = ExtResource( 2 )
+
+[connection signal="pressed" from="." to="." method="_on_Restart_pressed"]
