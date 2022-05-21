@@ -25,9 +25,9 @@ boot_splash/image="res://brand/bootsplash_upscaled.png"
 boot_splash/fullsize=false
 boot_splash/use_filter=false
 boot_splash/bg_color=Color( 0.156863, 0.564706, 0.862745, 1 )
-config/icon="res://build/icons/hicolor/1274x1274/dinonuggys-journey.png"
-config/macos_native_icon="res://build/icons/hicolor/128x128/dinonuggys-journey.icns"
-config/windows_native_icon="res://build/icons/hicolor/128x128/dinonuggys-journey.ico"
+config/icon="res://build/icons/usr/share/icons/hicolor/1274x1274/apps/dinonuggys-journey.png"
+config/macos_native_icon="res://build/icons/usr/share/icons/hicolor/128x128/apps/dinonuggys-journey.icns"
+config/windows_native_icon="res://build/icons/usr/share/icons/hicolor/128x128/apps/dinonuggys-journey.ico"
 
 [autoload]
 

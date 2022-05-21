@@ -19,7 +19,6 @@ script = ExtResource( 1 )
 scale = Vector2( 8, 8 )
 frames = SubResource( 1 )
 animation = "start"
-frame = 1
 playing = true
 
 [node name="Camera2D" type="Camera2D" parent="."]

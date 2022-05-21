@@ -1,4 +1,9 @@
 pipeline:
+  build-icons:
+    image: alpine
+    commands:
+      - apk add just imagemagick
+      - just build-icons
   godot-build-linux:
     image: barichello/godot-ci
     commands:
@@ -48,23 +53,23 @@ pipeline:
   # 4. Create a third secret named `secret_release_keystore_password` with the password of your keystore as value.
   #  when:
   #    event: tag
-  godot-build-android:
-    secrets: [ secret_release_keystore_base64, secret_release_keystore_user, secret_release_keystore_password ]
-    image: barichello/godot-ci
-    commands:
-      - echo $${SECRET_RELEASE_KEYSTORE_BASE64} | base64 --decode > /root/release.keystore
-      - ls /root/
-      - ls /root/ | grep -i release
-      - sed 's@keystore/debug=".*"@keystore/debug="'/root/release.keystore'"@g' -i export_presets.cfg
-      - sed 's@keystore/debug_user=".*"@keystore/debug_user="'$${SECRET_RELEASE_KEYSTORE_USER}'"@g' -i export_presets.cfg
-      - sed 's@keystore/debug_password=".*"@keystore/debug_password="'$${SECRET_RELEASE_KEYSTORE_PASSWORD}'"@g' -i export_presets.cfg
-      - sed 's@keystore/release=".*"@keystore/release="'/root/release.keystore'"@g' -i export_presets.cfg
-      - sed 's@keystore/release_user=".*"@keystore/release_user="'$${SECRET_RELEASE_KEYSTORE_USER}'"@g' -i export_presets.cfg
-      - sed 's@keystore/release_password=".*"@keystore/release_password="'$${SECRET_RELEASE_KEYSTORE_PASSWORD}'"@g' -i export_presets.cfg
-      - godot -v --export "Android" godot-build/Dinonuggy\'s\ Journey\ for\ Android\ ${CI_COMMIT_TAG}.apk
-      - ls godot-build
-    when:
-      event: tag
+  #godot-build-android:
+  #  secrets: [ secret_release_keystore_base64, secret_release_keystore_user, secret_release_keystore_password ]
+  #  image: barichello/godot-ci
+  #  commands:
+  #    - echo $${SECRET_RELEASE_KEYSTORE_BASE64} | base64 --decode > /root/release.keystore
+  #    - ls /root/
+  #    - ls /root/ | grep -i release
+  #    - sed 's@keystore/debug=".*"@keystore/debug="'/root/release.keystore'"@g' -i export_presets.cfg
+  #    - sed 's@keystore/debug_user=".*"@keystore/debug_user="'$${SECRET_RELEASE_KEYSTORE_USER}'"@g' -i export_presets.cfg
+  #    - sed 's@keystore/debug_password=".*"@keystore/debug_password="'$${SECRET_RELEASE_KEYSTORE_PASSWORD}'"@g' -i export_presets.cfg
+  #    - sed 's@keystore/release=".*"@keystore/release="'/root/release.keystore'"@g' -i export_presets.cfg
+  #    - sed 's@keystore/release_user=".*"@keystore/release_user="'$${SECRET_RELEASE_KEYSTORE_USER}'"@g' -i export_presets.cfg
+  #    - sed 's@keystore/release_password=".*"@keystore/release_password="'$${SECRET_RELEASE_KEYSTORE_PASSWORD}'"@g' -i export_presets.cfg
+  #    - godot -v --export "Android" godot-build/Dinonuggy\'s\ Journey\ for\ Android\ ${CI_COMMIT_TAG}.apk
+  #    - ls godot-build
+  #  when:
+  #    event: tag
   godot-build-linux-pack:
     image: barichello/godot-ci
     commands:
@@ -75,10 +80,10 @@ pipeline:
       event: tag
   changelog:
     image: quay.io/git-chglog/git-chglog:latest
-    secrets: [ token ]
+    secrets: [ codeberg_access_token ]
     commands:
       # clone repository
-      - git clone https://"$${TOKEN}"@codeberg.org/${CI_REPO_OWNER}/${CI_REPO_NAME}.git /${CI_REPO_NAME}
+      - git clone https://"$${CODEBERG_ACCESS_TOKEN}"@codeberg.org/${CI_REPO_OWNER}/${CI_REPO_NAME}.git /${CI_REPO_NAME}
       - cd /${CI_REPO_NAME}
       # generate changelog
       - git-chglog > CHANGELOG.md
@@ -93,10 +98,10 @@ pipeline:
       event: tag
   gitea-release:
     image: plugins/gitea-release
-    secrets: [ gitea_token token ]
+    secrets: [ codeberg_access_token ]
     settings:
       api_key:
-        from_secret: gitea_token
+        from_secret: codeberg_access_token
       base_url: https://codeberg.org
       files:
         - godot-build/*
@@ -111,11 +116,11 @@ pipeline:
         exclude: [ '*.md', '.chglog/**' ]
   deploy-web:
     image: alpine
-    secrets: [ token ]
+    secrets: [ codeberg_access_token ]
     commands:
       - apk add git unzip rsync
       # clone pages repository
-      - git clone https://"$${TOKEN}"@codeberg.org/${CI_REPO_OWNER}/pages.git /pages
+      - git clone https://"$${CODEBERG_ACCESS_TOKEN}"@codeberg.org/${CI_REPO_OWNER}/pages.git /pages
       # unzip web version
       - unzip godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}.zip -d godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/
       - rsync -r --delete --exclude-from=".rsyncignore" godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/godot-build/Dinonuggy\'s\ Journey\ for\ Web\ ${CI_COMMIT_TAG}/ /pages
