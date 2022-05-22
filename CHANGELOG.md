@@ -1,4 +1,18 @@
 
+<a name="v0.70.3"></a>
+## [v0.70.3](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.70.2...v0.70.3)
+
+> 2022-05-22
+
+### Bug Fixes
+
+* exports failing to start because of scenes not being exported but this time for all export presets
+
+### Continuous Integration
+
+* **changelog:** remove
+
+
 <a name="v0.70.2"></a>
 ## [v0.70.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.70.1...v0.70.2)
 
