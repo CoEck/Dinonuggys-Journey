@@ -28,6 +28,9 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="0.70.2" date="2022-05-22">
+			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.70.2</url>
+		</release>
 		<release version="0.70.1" date="2022-05-22">
 			<url>https://codeberg.org/CoEck/Dinonuggys-Journey/releases/tag/v0.70.1</url>
 		</release>

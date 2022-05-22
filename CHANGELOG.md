@@ -1,4 +1,16 @@
 
+<a name="v0.70.2"></a>
+## [v0.70.2](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.70.1...v0.70.2)
+
+> 2022-05-22
+
+### Bug Fixes
+
+* remove unnescessary files in `.import`
+* exports failing to start because of scenes not being exported
+* scaling
+
+
 <a name="v0.70.1"></a>
 ## [v0.70.1](https://codeberg.org/CoEck/Dinonuggys-Journey/compare/v0.70.0...v0.70.1)
 
