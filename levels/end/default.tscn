@@ -17,10 +17,9 @@ animations = [ {
 script = ExtResource( 2 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-scale = Vector2( 8, 8 )
+scale = Vector2( 4, 4 )
 frames = SubResource( 1 )
 animation = "end"
-frame = 1
 playing = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -32,7 +31,7 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -184.0
-margin_top = 544.0
-margin_right = -124.0
-margin_bottom = 557.0
+margin_left = -120.0
+margin_top = 277.0
+margin_right = 0.0
+margin_bottom = 303.0

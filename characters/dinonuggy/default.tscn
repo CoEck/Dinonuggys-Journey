@@ -30,7 +30,7 @@ animation = "run"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
-zoom = Vector2( 0.2, 0.2 )
+zoom = Vector2( 0.3, 0.3 )
 smoothing_enabled = true
 offset_h = 0.32
 offset_v = -0.22
@@ -45,30 +45,21 @@ shape = SubResource( 2 )
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="KeyShortcuts" parent="CanvasLayer" instance=ExtResource( 5 )]
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-margin_left = -264.0
-margin_top = -104.0
-margin_right = -179.0
-margin_bottom = -84.9999
-items = [ "r / Xbox X to restart", null, 0, false, false, 0, 0, null, "", false, "w / space / up arrow to move up", null, 0, false, false, 1, 0, null, "", false, "a / left arrow to move left", null, 0, false, false, 2, 0, null, "", false, "d / right arrow to move left", null, 0, false, false, 4, 0, null, "", false ]
 
 [node name="Stopwatch" parent="CanvasLayer" instance=ExtResource( 6 )]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = 16.0
-margin_top = -88.0
-margin_right = 76.0
-margin_bottom = -75.0
+margin_left = 12.0
+margin_top = -58.0
+margin_right = 132.0
+margin_bottom = -32.0
 
 [node name="Restart" parent="CanvasLayer" instance=ExtResource( 4 )]
 anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -280.0
-margin_top = -104.0
-margin_right = -229.0
-margin_bottom = -85.0
+margin_left = -176.0
+margin_top = -64.0
+margin_right = -86.0
+margin_bottom = -32.0

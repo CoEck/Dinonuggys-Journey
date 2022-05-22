@@ -35,9 +35,12 @@ global="*res://global.gd"
 
 [display]
 
-window/size/borderless=true
+window/size/width=720
+window/size/height=720
 window/size/fullscreen=true
 window/dpi/allow_hidpi=true
+window/stretch/mode="2d"
+window/stretch/aspect="expand"
 
 [input]
 

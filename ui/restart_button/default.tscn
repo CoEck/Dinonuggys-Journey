@@ -1,13 +1,22 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
+[ext_resource path="res://fonts/m5x7/m5x7.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://ui/restart_button/default.gd" type="Script" id=2]
-[ext_resource path="res://ui/themes/default.tres" type="Theme" id=3]
+
+[sub_resource type="DynamicFont" id=2]
+size = 32
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=1]
+default_font = SubResource( 2 )
 
 [node name="Restart" type="Button"]
-margin_right = 40.0
-margin_bottom = 13.0
-rect_scale = Vector2( 6, 6 )
-theme = ExtResource( 3 )
+margin_right = 51.0
+margin_bottom = 19.0
+rect_scale = Vector2( 2, 2 )
+theme = SubResource( 1 )
 text = "Restart"
 flat = true
 script = ExtResource( 2 )

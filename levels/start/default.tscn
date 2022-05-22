@@ -16,12 +16,12 @@ animations = [ {
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-scale = Vector2( 8, 8 )
+scale = Vector2( 4, 4 )
 frames = SubResource( 1 )
 animation = "start"
+frame = 1
 playing = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 0, -8 )
 current = true
 smoothing_enabled = true
